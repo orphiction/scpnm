@@ -456,23 +456,23 @@
       "questions": [
         "Tell me the new SCP"
       ],
-      "answer": [ 
+      "answer": [
         "NO! (Send me 20 bucks)"
       ]
     },
     {
-      "name":"Thaumiel"
+      "name": "Thaumiel",
       "questions": [
         "Thaumiel",
         "Will Thaumiel SCPs be in the game?",
-        "T-h-a-u-m-i-e-l",
+        "T-h-a-u-m-i-e-l"
       ],
       "answer": [
         "You expect me to know what a Thaumiel SCP is? Do I look like a wiki"
       ]
     },
     {
-      "name": "respond"
+      "name": "respond",
       "questions": [
         "respond to me",
         "talk to me",
@@ -484,5 +484,6 @@
         "stand ready for my arrival worm",
         "I'm coming for you in the apocalypse"
       ]
-
-        
+    }
+  ]
+}
