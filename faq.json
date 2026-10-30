@@ -361,6 +361,16 @@
     "Is there a new SCP coming?",
     "Any new SCPs?"
   ],
-  "answer": "idk I'm just a Discord bot"
-  }
-]
+  "answer": "idk, I'm just a Discord bot"
+  },
+  {
+    "name": "help",
+    "questions": [
+      "Can someone help me?",
+      "Who can help me?",
+      "This bot doesn't know anything",
+      "This bot won't answer my question"
+    ],
+    "answer": "If you require help and I can't provide an answer, feel free to ping Orphiction, and he will get back to you as soon as he can"
+  },
+  
