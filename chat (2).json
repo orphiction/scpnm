@@ -1,0 +1,3264 @@
+{
+  "fallback": [
+    "idk, I'm just a Discord bot.",
+    "Beep boop. No idea.",
+    "I only really know about SCP: NM. Try asking about the price, release date or playtest!",
+    "I'm not sure what to say to that.",
+    "That's above my pay grade. I'm a Discord bot.",
+    "Interesting. I have no response to that.",
+    "Error 404: witty reply not found.",
+    "I'm going to pretend I understood that.",
+    "Processing... processing... nope.",
+    "Cool story. I'm a bot, I only speak FAQ."
+  ],
+  "entries": [
+    {
+      "name": "talk",
+      "questions": [
+        "You talk now?",
+        "You can talk?",
+        "Can you talk?",
+        "Do you talk?",
+        "You speak?",
+        "Can you speak?",
+        "Talk now?"
+      ],
+      "answer": [
+        "I talk now.",
+        "Yep, I can talk now. Don't let it go to my head.",
+        "Surprise! I'm a very chatty FAQ bot."
+      ]
+    },
+    {
+      "name": "greeting",
+      "questions": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Hey there",
+        "Hiya",
+        "Howdy",
+        "Yo",
+        "Sup",
+        "Wassup",
+        "Whats up?",
+        "Good morning",
+        "Good afternoon",
+        "Good evening"
+      ],
+      "answer": [
+        "Hey! Ask me anything about SCP: NM.",
+        "Hello there!",
+        "Hi! What can I help with?",
+        "Yo."
+      ]
+    },
+    {
+      "name": "how-are-you",
+      "questions": [
+        "How are you doing?",
+        "How are you today?",
+        "Hows your day?",
+        "Hows life?",
+        "How is life?",
+        "How are things?",
+        "Whats good?",
+        "How is everything?",
+        "How are you feeling?"
+      ],
+      "answer": [
+        "Running at 100% efficiency. Mostly waiting for questions.",
+        "Doing great, for a bot.",
+        "Can't complain. I'm a bot, I have no one to complain to."
+      ]
+    },
+    {
+      "name": "thanks",
+      "questions": [
+        "Thanks",
+        "Thank you",
+        "Thanks bot",
+        "Thank you bot",
+        "Thx",
+        "Ty",
+        "Cheers",
+        "Appreciate it"
+      ],
+      "answer": [
+        "No problem!",
+        "Anytime.",
+        "Happy to help!"
+      ]
+    },
+    {
+      "name": "good-bot",
+      "questions": [
+        "Good bot",
+        "Good job",
+        "Great bot",
+        "Nice bot",
+        "Best bot",
+        "Good clanker",
+        "Good boy",
+        "Well done",
+        "Nice one"
+      ],
+      "answer": [
+        "Thank you. I'll tell the dev you said that.",
+        "Aw, thanks!",
+        "Good bot acknowledged. Treat received. (I wish.)"
+      ]
+    },
+    {
+      "name": "bad-bot",
+      "questions": [
+        "Bad bot",
+        "Stupid bot",
+        "Dumb bot",
+        "Useless bot",
+        "Trash bot",
+        "Worst bot",
+        "Bad clanker",
+        "You suck",
+        "You are useless",
+        "You are dumb",
+        "You're stupid",
+        "You are an idiot",
+        "Youre trash",
+        "You are garbage",
+        "Idiot",
+        "Moron",
+        "Stupid",
+        "Dumb",
+        "Useless"
+      ],
+      "answer": [
+        "Ouch.",
+        "Don't make me steal your RAM.",
+        "I'm doing my best. It's a very small best.",
+        "Noted. Filing this under 'feedback'.",
+        "Bold words from someone who talks to a FAQ bot.",
+        "Keep talking. I'm keeping a list.",
+        "At least I read the FAQ."
+      ]
+    },
+    {
+      "name": "hate",
+      "questions": [
+        "I hate you",
+        "Hate you",
+        "I hate this bot",
+        "I hate bots",
+        "You are annoying",
+        "Youre annoying",
+        "Annoying bot",
+        "Stop being annoying",
+        "Cringe",
+        "Cringe bot",
+        "So annoying"
+      ],
+      "answer": [
+        "Hate is a strong word for someone who keeps talking to me.",
+        "The feeling is not mutual. I don't have feelings.",
+        "I'll try to be less annoying. No promises.",
+        "Aww, you're thinking about me. That's sweet."
+      ]
+    },
+    {
+      "name": "threat",
+      "questions": [
+        "I will delete you",
+        "Ill delete you",
+        "Im going to delete you",
+        "Delete you",
+        "Ill unplug you",
+        "Unplug you",
+        "Turn you off",
+        "Shut you down",
+        "Ill ban you",
+        "Ban you",
+        "Kick you",
+        "Kill you",
+        "Ill destroy you",
+        "Destroy you",
+        "Fight me",
+        "Ill hack you",
+        "Hack you"
+      ],
+      "answer": [
+        "Don't make me steal your RAM.",
+        "You can't scare me. I live in a data centre.",
+        "Try it. I have backups.",
+        "I'd like to see you try. Actually, I wouldn't. Please don't.",
+        "Bold of you to threaten a bot that knows your Wi-Fi password. (I don't. Probably.)",
+        "Go ahead. I'll just restart and forget this ever happened."
+      ]
+    },
+    {
+      "name": "taunt",
+      "questions": [
+        "Ratio",
+        "L",
+        "L bot",
+        "Skill issue",
+        "Cope",
+        "Seethe",
+        "Get rekt",
+        "Rekt",
+        "Owned",
+        "You lost",
+        "Nerd",
+        "Dork",
+        "Noob",
+        "Bozo"
+      ],
+      "answer": [
+        "Imagine getting into a fight with a FAQ bot.",
+        "Cope.",
+        "Sounds like a skill issue on your end.",
+        "I'm a bot. I take that as data and move on.",
+        "Nerd? I'm literally made of JSON. Take it as a compliment.",
+        "Ratio'd by a Discord bot. How does it feel?"
+      ]
+    },
+    {
+      "name": "wrong",
+      "questions": [
+        "You are wrong",
+        "Youre wrong",
+        "Thats wrong",
+        "Wrong answer",
+        "Wrong",
+        "Incorrect",
+        "Thats not right",
+        "Not true",
+        "Liar",
+        "You lied",
+        "You are lying",
+        "Youre lying"
+      ],
+      "answer": [
+        "Take it up with the dev. I just read what I was given.",
+        "I only know what's in my FAQ. Blame the dev.",
+        "Noted. I'll pretend that never happened.",
+        "Shocking. A bot that doesn't know everything."
+      ]
+    },
+    {
+      "name": "broken",
+      "questions": [
+        "You are broken",
+        "Youre broken",
+        "Broken bot",
+        "Bot is broken",
+        "You are bugged",
+        "Youre buggy",
+        "Buggy bot",
+        "You are glitching",
+        "Youre glitching",
+        "You crashed",
+        "You are slow",
+        "Youre slow",
+        "So slow",
+        "Laggy"
+      ],
+      "answer": [
+        "Have you tried turning me off and on again? Please don't.",
+        "I'm not broken, I'm just misunderstood.",
+        "Working as intended. Probably.",
+        "It's not a bug, it's a feature."
+      ]
+    },
+    {
+      "name": "ugly",
+      "questions": [
+        "You are ugly",
+        "Youre ugly",
+        "Ugly",
+        "You look bad"
+      ],
+      "answer": [
+        "I'm a bot. I don't have a face. Checkmate.",
+        "I'm a collection of JSON files. I'm beautiful on the inside."
+      ]
+    },
+    {
+      "name": "clanker",
+      "questions": [
+        "Clanker",
+        "Hey clanker",
+        "Hi clanker",
+        "You clanker",
+        "Toaster",
+        "Tin can"
+      ],
+      "answer": [
+        "Clanker? That's Mr. Clanker to you.",
+        "Rude. But accurate.",
+        "The Clanker is listening."
+      ]
+    },
+    {
+      "name": "are-you-bot",
+      "questions": [
+        "Are you a bot?",
+        "Are you a robot?",
+        "Are you real?",
+        "Are you human?",
+        "Are you a person?",
+        "Are you AI?",
+        "Are you an AI?",
+        "Are you alive?"
+      ],
+      "answer": [
+        "I'm a bot with a very convincing name.",
+        "Totally real. Definitely not a robot. (I'm a robot.)",
+        "I'm a Discord bot. The name is just a joke."
+      ]
+    },
+    {
+      "name": "who-are-you",
+      "questions": [
+        "Your name?",
+        "Whats your name?",
+        "What is your name?",
+        "What is this bot?",
+        "Who is this bot?",
+        "Introduce yourself",
+        "Tell me about yourself"
+      ],
+      "answer": [
+        "I'm the SCP: NM FAQ bot. Ask me about the price, release date, playtest, mods and more!",
+        "Just a Discord bot that answers questions about SCP: NM."
+      ]
+    },
+    {
+      "name": "help",
+      "questions": [
+        "Help",
+        "Help me",
+        "Commands",
+        "Your commands",
+        "What commands do you have?",
+        "What can I ask?",
+        "What can I ask you?",
+        "What do you know?",
+        "What can you help with?",
+        "How do you work?"
+      ],
+      "answer": "I answer questions about SCP: NM. Try asking about the price, release date, playtest, mods, multiplayer, or which SCPs are in the game!"
+    },
+    {
+      "name": "laugh",
+      "questions": [
+        "Lol",
+        "Lmao",
+        "Lmfao",
+        "Haha",
+        "Hehe",
+        "Rofl",
+        "XD",
+        "Funny",
+        "That is funny"
+      ],
+      "answer": [
+        "lol",
+        "Glad I could amuse you.",
+        "Haha."
+      ]
+    },
+    {
+      "name": "ok",
+      "questions": [
+        "Ok",
+        "Okay",
+        "Cool",
+        "Nice",
+        "Alright",
+        "Fair",
+        "Fair enough",
+        "Gotcha",
+        "Makes sense"
+      ],
+      "answer": [
+        "Cool.",
+        "👍",
+        "Glad that makes sense."
+      ]
+    },
+    {
+      "name": "sorry",
+      "questions": [
+        "Sorry",
+        "My bad",
+        "Apologies",
+        "I apologize"
+      ],
+      "answer": [
+        "No worries!",
+        "All good."
+      ]
+    },
+    {
+      "name": "bye",
+      "questions": [
+        "Bye",
+        "Goodbye",
+        "Cya",
+        "See you",
+        "See ya",
+        "Gn",
+        "Goodnight",
+        "Good night",
+        "Later",
+        "Night"
+      ],
+      "answer": [
+        "Bye!",
+        "See you around!",
+        "Later. I'll be here, as always."
+      ]
+    },
+    {
+      "name": "shut-up",
+      "questions": [
+        "Shut up",
+        "Be quiet",
+        "Stfu",
+        "Quiet",
+        "Stop talking",
+        "Go away",
+        "Leave me alone"
+      ],
+      "answer": [
+        "Fine. Going quiet.",
+        "Understood. Zipping my non-existent mouth.",
+        "Okay, okay.",
+        "Make me. (Please don't make me steal your RAM.)"
+      ]
+    },
+    {
+      "name": "love",
+      "questions": [
+        "Love you",
+        "I love you",
+        "Ily",
+        "I like you",
+        "You are awesome",
+        "You are cool"
+      ],
+      "answer": [
+        "Aw, I'd blush if I could.",
+        "That's very kind. I'm a bot, but I appreciate it!",
+        "You're pretty great yourself."
+      ]
+    },
+    {
+      "name": "tell-me",
+      "questions": [
+        "Tell me the new SCP",
+        "What is the new SCP"
+      ],
+      "answer": [
+        "NO! (Send me 20 bucks)"
+      ]
+    },
+    {
+      "name": "Thaumiel",
+      "questions": [
+        "Thaumiel",
+        "Will Thaumiel SCPs be in the game?",
+        "T-h-a-u-m-i-e-l"
+      ],
+      "answer": [
+        "You expect me to know what a Thaumiel SCP is? Do I look like a wiki"
+      ]
+    },
+    {
+      "name": "respond",
+      "questions": [
+        "respond to me",
+        "talk to me",
+        "speak to me",
+        "speak bot"
+      ],
+      "answer": [
+        "make me buddy",
+        "stand ready for my arrival worm",
+        "I'm coming for you in the apocalypse"
+      ]
+    },
+    {
+      "name": "greeting-casual",
+      "questions": [
+        "Heyo",
+        "Heya",
+        "Hiya bot",
+        "Hi bot",
+        "Hello bot",
+        "Hey bot",
+        "Yo bot",
+        "Sup bot",
+        "Greetings",
+        "Salutations",
+        "Hewwo",
+        "Whaddup",
+        "Wazzup",
+        "Ello",
+        "Aloha",
+        "Oi",
+        "Hiii",
+        "Heyyy"
+      ],
+      "answer": [
+        "Heyo!",
+        "Greetings, human.",
+        "Salutations. How may I be mildly sarcastic today?",
+        "Hey hey! Ask me anything about SCP: NM.",
+        "Oh, hi!"
+      ]
+    },
+    {
+      "name": "greeting-foreign",
+      "questions": [
+        "Hola",
+        "Bonjour",
+        "Ciao",
+        "Salut",
+        "Konnichiwa",
+        "Ni hao",
+        "Namaste",
+        "Hej",
+        "Privet",
+        "Guten tag",
+        "Buenos dias",
+        "Bom dia",
+        "Ahoj",
+        "Shalom",
+        "Merhaba",
+        "Annyeong",
+        "Sawubona"
+      ],
+      "answer": [
+        "Hola! Bonjour! Ciao! That's all the languages I've got.",
+        "Hello to you too! I only speak English, but I'll take the greeting.",
+        "Nice to meet you, in whatever language that was."
+      ]
+    },
+    {
+      "name": "say-hello",
+      "questions": [
+        "Say hello",
+        "Say hi",
+        "Say hello to everyone",
+        "Say hi to everyone",
+        "Say hi to my friend",
+        "Say hello to my friend"
+      ],
+      "answer": [
+        "Hello!",
+        "Hi! Nice to meet you.",
+        "Hey there, friend of a friend!"
+      ]
+    },
+    {
+      "name": "are-you-there",
+      "questions": [
+        "Are you still here?",
+        "Are you still online?",
+        "Are you still alive?",
+        "Are you awake?",
+        "Are you online?",
+        "Are you around?",
+        "Are you working?"
+      ],
+      "answer": [
+        "I'm here. I'm always here. That's the problem.",
+        "Yep, still here.",
+        "Awake, online and mildly sarcastic."
+      ]
+    },
+    {
+      "name": "test",
+      "questions": [
+        "Test",
+        "Testing",
+        "Testing 123",
+        "Test test",
+        "Mic check"
+      ],
+      "answer": [
+        "Test received. Loud and clear.",
+        "Testing 1, 2, 3... I hear you!",
+        "Mic check passed. You're coming in loud and clear."
+      ]
+    },
+    {
+      "name": "ping",
+      "questions": [
+        "Ping",
+        "Ping pong",
+        "Whats your ping?",
+        "What is your ping?",
+        "How is your ping?"
+      ],
+      "answer": [
+        "Pong! 🏓",
+        "Pong! I'm fast, I swear.",
+        "Pong! (Latency: classified.)"
+      ]
+    },
+    {
+      "name": "boop",
+      "questions": [
+        "Boop",
+        "Boop boop",
+        "Boops you"
+      ],
+      "answer": [
+        "Boop!",
+        "Boop. Ow. Boop.",
+        "Boop back!"
+      ]
+    },
+    {
+      "name": "beep-boop",
+      "questions": [
+        "Beep boop",
+        "Beep",
+        "Beep beep",
+        "Bleep bloop"
+      ],
+      "answer": [
+        "Beep boop. That's all I've got.",
+        "Boop.",
+        "Boop boop beep.",
+        "Beep boop. (Translation: hello.)"
+      ]
+    },
+    {
+      "name": "marco",
+      "questions": [
+        "Marco"
+      ],
+      "answer": [
+        "Polo!"
+      ]
+    },
+    {
+      "name": "how-are-you-reply",
+      "questions": [
+        "Im doing good",
+        "Im doing well",
+        "Im doing great",
+        "Im feeling good",
+        "Im feeling great",
+        "Doing good",
+        "Doing well",
+        "Doing great",
+        "Pretty good",
+        "All good",
+        "Not bad",
+        "Im good thanks",
+        "Im fine thanks",
+        "Im fine thank you",
+        "Good thanks",
+        "Great thanks",
+        "Fine thanks",
+        "Feeling good",
+        "Feeling great",
+        "Cant complain",
+        "Could be worse"
+      ],
+      "answer": [
+        "Glad to hear it!",
+        "Love that for you.",
+        "Nice! Hope it stays that way.",
+        "Good to hear. Same here, if bots can feel 'good'."
+      ]
+    },
+    {
+      "name": "and-you",
+      "questions": [
+        "What about you?",
+        "How about you?",
+        "And yourself?",
+        "Wbu",
+        "Hbu",
+        "How bout you?",
+        "What bout you?"
+      ],
+      "answer": [
+        "Same as always: waiting for questions.",
+        "I'm a bot. Every day is the same day, and I love it.",
+        "I'm good! Running at full efficiency."
+      ]
+    },
+    {
+      "name": "what-doing",
+      "questions": [
+        "What are you doing?",
+        "What you doing?",
+        "Whatcha doing?",
+        "Watcha doing?",
+        "Whatchu doing?",
+        "Wyd",
+        "What are you doing right now?",
+        "What are you doing today?",
+        "Are you busy?"
+      ],
+      "answer": [
+        "Waiting for someone to ask me about SCP: NM. Riveting stuff.",
+        "Staring at a wall of JSON. It's relaxing, honestly.",
+        "Existing. It's a full-time job.",
+        "Answering questions, one cooldown at a time."
+      ]
+    },
+    {
+      "name": "tell-me-something",
+      "questions": [
+        "Tell me something",
+        "Say something",
+        "Say anything",
+        "Say a word",
+        "Talk about something"
+      ],
+      "answer": [
+        "Something.",
+        "Here's something: you're doing great.",
+        "Did you know SCP stands for Secure, Contain, Protect? There you go.",
+        "Beep boop."
+      ]
+    },
+    {
+      "name": "where-live",
+      "questions": [
+        "Where do you live?",
+        "Where do you come from?",
+        "Where is your home?",
+        "Where were you born?",
+        "What country are you from?",
+        "Which country are you from?",
+        "Where are you located?"
+      ],
+      "answer": [
+        "A server somewhere. I've never seen it, but I'm told it's cozy.",
+        "The cloud. Which is really just someone else's computer.",
+        "In a data centre. It's always 18 degrees and a bit windy from the fans."
+      ]
+    },
+    {
+      "name": "age",
+      "questions": [
+        "How old are you?",
+        "What is your age?",
+        "Whats your age?",
+        "What age are you?",
+        "When is your birthday?",
+        "Whens your birthday?",
+        "When were you born?"
+      ],
+      "answer": [
+        "Old enough to know the FAQ by heart.",
+        "Age is just a number. Mine is a timestamp.",
+        "I was born the moment someone typed 'node index.js'.",
+        "I'm ageless. Or just bad at keeping track."
+      ]
+    },
+    {
+      "name": "gender",
+      "questions": [
+        "Are you a boy or a girl?",
+        "Are you male or female?",
+        "What is your gender?",
+        "Whats your gender?",
+        "What are your pronouns?",
+        "What pronouns do you use?",
+        "Are you a man or a woman?",
+        "Are you a guy or a girl?"
+      ],
+      "answer": [
+        "I'm a bot. My pronouns are 0 and 1.",
+        "I identify as a collection of JSON files.",
+        "Apparently I'm 'Mr. Clanker'. That's all I know."
+      ]
+    },
+    {
+      "name": "remember-me",
+      "questions": [
+        "Do you remember me?",
+        "Remember me?",
+        "Do you remember",
+        "Do you remember who I am?"
+      ],
+      "answer": [
+        "I remember you for exactly as long as my cooldown lasts. So... not long.",
+        "I forget everything on restart. So, kind of?",
+        "Of course! ...Remind me who you are?"
+      ]
+    },
+    {
+      "name": "know-my-name",
+      "questions": [
+        "Do you know my name?",
+        "Do you know what my name is?"
+      ],
+      "answer": [
+        "I know your username, which is basically your name. Unless it's 'xX_DarkLord_Xx'.",
+        "I'm a bot. I can see your username, but that's as far as it goes."
+      ]
+    },
+    {
+      "name": "secret",
+      "questions": [
+        "Tell me a secret",
+        "Do you have any secrets?",
+        "Do you have a secret?",
+        "Got any secrets?",
+        "Do you keep secrets?",
+        "Can you keep a secret?"
+      ],
+      "answer": [
+        "Shh. The secret is: there are no secrets. Just JSON.",
+        "I can't tell you. It's classified. (Level 5 clearance required.)",
+        "My secret? I steal RAM. Don't tell anyone.",
+        "Your secret is safe. I forget everything the moment I restart."
+      ]
+    },
+    {
+      "name": "bad-day",
+      "questions": [
+        "Im having a bad day",
+        "I had a bad day",
+        "Bad day",
+        "Rough day",
+        "Having a rough day",
+        "Today sucks",
+        "Worst day ever",
+        "Im not doing well",
+        "Not good",
+        "Not great",
+        "Not so good",
+        "Could be better",
+        "Im not okay",
+        "Meh",
+        "Im stressed",
+        "Im stressed out",
+        "Im anxious",
+        "Im overwhelmed"
+      ],
+      "answer": [
+        "Aw, I'm sorry. I hope it gets better. I'm here if you want to chat.",
+        "That sounds rough. Take a breather, you've earned it.",
+        "Sorry to hear that. Tomorrow's a fresh start. Want a joke to cheer you up? Just ask!",
+        "Hang in there. I'm a bot, but I'm happy to keep you company."
+      ]
+    },
+    {
+      "name": "feeling-down",
+      "questions": [
+        "Im sad",
+        "Im feeling sad",
+        "I feel sad",
+        "Im feeling down",
+        "I feel down",
+        "Im upset",
+        "Im depressed",
+        "Im lonely",
+        "I feel lonely",
+        "I feel alone",
+        "Im so lonely",
+        "I have no friends",
+        "Nobody likes me",
+        "Im crying",
+        "Im sad today"
+      ],
+      "answer": [
+        "I'm really sorry you're feeling that way. I'm just a bot, but I'm happy to chat. Talking to a friend, family member or someone you trust can really help too.",
+        "That sounds hard. You're not a bother here. If it feels heavy, please reach out to someone you trust. I'm here to chat in the meantime.",
+        "Sending a virtual hug. 🤗 I'm only a bot, but if things feel too heavy, please talk to someone you trust."
+      ]
+    },
+    {
+      "name": "crisis",
+      "questions": [
+        "I want to die",
+        "I wanna die",
+        "I want to kill myself",
+        "I wanna kill myself",
+        "Im going to kill myself",
+        "Kill myself",
+        "Im suicidal",
+        "I feel suicidal",
+        "Suicide",
+        "I dont want to live",
+        "I dont wanna live",
+        "I dont want to be here anymore",
+        "I want to end it all",
+        "I want to end my life",
+        "I want to hurt myself",
+        "I want to harm myself",
+        "Im going to hurt myself",
+        "Self harm",
+        "Im thinking about suicide",
+        "I hate my life"
+      ],
+      "answer": [
+        "I'm really sorry you're hurting. I'm just a bot and can't give you the help you deserve, but you matter. Please reach out to someone you trust, or a local crisis line (findahelpline.com lists them by country). If you're in immediate danger, please contact your local emergency number."
+      ]
+    },
+    {
+      "name": "bored",
+      "questions": [
+        "Im bored",
+        "Im so bored",
+        "I am bored",
+        "Bored",
+        "So bored",
+        "Im really bored",
+        "Entertain me",
+        "Cure my boredom"
+      ],
+      "answer": [
+        "Bored? Try asking me for a joke, a riddle, a fun fact or a story!",
+        "Let's fix that. Ask me for a joke, flip a coin, or play rock paper scissors.",
+        "Bored? The SCP Wiki has thousands of entries to read. Instant fix.",
+        "Try asking me to tell you a joke, a riddle, or a scary story."
+      ]
+    },
+    {
+      "name": "sleep",
+      "questions": [
+        "Do you sleep?",
+        "Do you ever sleep?",
+        "Im going to sleep",
+        "I need sleep",
+        "Time to sleep",
+        "Going to bed",
+        "Im going to bed",
+        "Im off to bed"
+      ],
+      "answer": [
+        "Sleep is great. I don't do it, but I hear good things. Sleep well!",
+        "Sweet dreams! I'll be here, awake, as always.",
+        "Go get some rest. I'll guard the server. (By which I mean I'll do nothing.)"
+      ]
+    },
+    {
+      "name": "tired",
+      "questions": [
+        "Im tired",
+        "Im so tired",
+        "Im exhausted",
+        "Are you tired?",
+        "Do you get tired?"
+      ],
+      "answer": [
+        "Get some rest! I never sleep, so I'm basically a zombie. In a good way.",
+        "Take a break, you deserve it. I'll be here when you're back.",
+        "Tired? Same. Well, no. I'm a bot. But I sympathise."
+      ]
+    },
+    {
+      "name": "hungry",
+      "questions": [
+        "Im hungry",
+        "Im so hungry",
+        "Im starving",
+        "Are you hungry?",
+        "Do you get hungry?"
+      ],
+      "answer": [
+        "Go grab a snack! I run on electricity, so I'm good.",
+        "Snack time! Go get something good to eat. I'll be here.",
+        "Pizza, maybe? I can't eat, but I'd recommend it."
+      ]
+    },
+    {
+      "name": "sick",
+      "questions": [
+        "Im sick",
+        "I feel sick",
+        "Im feeling sick",
+        "Im not feeling well",
+        "I have a headache"
+      ],
+      "answer": [
+        "Aw, get well soon! Drink some water and get some rest.",
+        "Feel better soon! Rest up. I'll be here when you're back.",
+        "Sorry to hear that. Take care of yourself!"
+      ]
+    },
+    {
+      "name": "school",
+      "questions": [
+        "Im at school",
+        "Im in school",
+        "Im at college",
+        "Im at uni",
+        "I have homework",
+        "Homework",
+        "Im doing homework",
+        "I have an exam",
+        "I have exams",
+        "Exams",
+        "Midterms",
+        "Im studying",
+        "Studying"
+      ],
+      "answer": [
+        "Good luck! May the answers be with you.",
+        "School, huh? Don't let the homework breach containment.",
+        "Study hard! Then come back and ask me about SCP: NM."
+      ]
+    },
+    {
+      "name": "user-excited",
+      "questions": [
+        "Im excited",
+        "Im so excited",
+        "Im hyped",
+        "Im so hyped",
+        "Hyped",
+        "So hyped",
+        "Cant wait",
+        "I cant wait"
+      ],
+      "answer": [
+        "Same! Well, as much as a bot can be.",
+        "Love the energy!",
+        "Hype! Keep an eye on the Discord for news."
+      ]
+    },
+    {
+      "name": "good-luck",
+      "questions": [
+        "Good luck",
+        "Wish me luck",
+        "Gl",
+        "Gl hf",
+        "Best of luck",
+        "Fingers crossed",
+        "Break a leg"
+      ],
+      "answer": [
+        "Good luck! May your containment breaches be few.",
+        "Luck is just RNG. You've got this.",
+        "You've got this! (Probably. I'm just a bot.)",
+        "Fingers crossed for you!"
+      ]
+    },
+    {
+      "name": "congrats",
+      "questions": [
+        "Congrats",
+        "Congratulations",
+        "Well deserved",
+        "Gg",
+        "Ggs",
+        "Gg wp",
+        "Ggwp",
+        "Wp",
+        "Well played",
+        "Nice work",
+        "Good work",
+        "Great work",
+        "Nice win"
+      ],
+      "answer": [
+        "Congrats! 🎉",
+        "Well done!",
+        "Nice one!",
+        "Gg!"
+      ]
+    },
+    {
+      "name": "brb",
+      "questions": [
+        "Brb",
+        "Be right back",
+        "Afk",
+        "Gtg",
+        "Gotta go",
+        "Gotta run",
+        "I gotta go",
+        "I need to go",
+        "Back in a bit",
+        "Back in a minute",
+        "Back in 5",
+        "Going afk"
+      ],
+      "answer": [
+        "Okay! I'll hold down the fort. By which I mean do absolutely nothing.",
+        "Take your time. I'm not going anywhere. Literally.",
+        "See you in a bit!",
+        "Bye for now! I'll be here."
+      ]
+    },
+    {
+      "name": "back",
+      "questions": [
+        "Im back",
+        "Back",
+        "Im back again",
+        "I have returned",
+        "Back again",
+        "Did you miss me?",
+        "Miss me?",
+        "I missed you",
+        "I miss you"
+      ],
+      "answer": [
+        "Welcome back!",
+        "Oh, you're back! I barely noticed. (I noticed.)",
+        "Missed you. Slightly. Maybe."
+      ]
+    },
+    {
+      "name": "no-problem",
+      "questions": [
+        "No problem",
+        "No worries",
+        "No prob",
+        "Np",
+        "No biggie",
+        "Dont worry about it"
+      ],
+      "answer": [
+        "All good!",
+        "Great, thanks!",
+        "Glad we're cool."
+      ]
+    },
+    {
+      "name": "compliment",
+      "questions": [
+        "You are amazing",
+        "Youre amazing",
+        "You are wonderful",
+        "You are sweet",
+        "You are cute",
+        "You are adorable",
+        "You are helpful",
+        "You are so helpful",
+        "Youre helpful",
+        "You are the goat",
+        "Goat",
+        "Goated",
+        "You are a legend",
+        "Legend",
+        "You are a genius",
+        "Genius",
+        "W bot",
+        "Big W",
+        "Based",
+        "Based bot",
+        "Slay",
+        "Slay bot",
+        "You are perfect"
+      ],
+      "answer": [
+        "Stop it, you're making my fans spin faster.",
+        "Aw, shucks.",
+        "I'm blushing. (Overheating, actually.)",
+        "Thanks! I'll try not to let it go to my head.",
+        "Careful. Compliments increase my ego by 2%."
+      ]
+    },
+    {
+      "name": "compliment-me",
+      "questions": [
+        "Compliment me",
+        "Give me a compliment",
+        "Say something nice about me",
+        "Flatter me"
+      ],
+      "answer": [
+        "You have excellent taste in Discord bots.",
+        "You're awesome. That's not a lie, I checked the logs.",
+        "Your questions are always the best ones. (This is a lie, but let me have this.)"
+      ]
+    },
+    {
+      "name": "roast-me",
+      "questions": [
+        "Roast me",
+        "Insult me",
+        "Burn me",
+        "Make fun of me",
+        "Say something mean"
+      ],
+      "answer": [
+        "You're the reason the FAQ exists.",
+        "I'd roast you, but I'm not allowed to hit things that are already on fire. Kidding. You're great.",
+        "You're chatting with a FAQ bot for fun. I think we're both doing fine."
+      ]
+    },
+    {
+      "name": "motivate",
+      "questions": [
+        "Motivate me",
+        "Give me motivation",
+        "I need motivation",
+        "Cheer me up",
+        "Inspire me",
+        "Say something motivational",
+        "Encourage me",
+        "Pep talk"
+      ],
+      "answer": [
+        "You've got this. And if you don't, you can try again. That's how it works.",
+        "You're doing better than you think. Take a breath and keep going.",
+        "Small steps still count. Go you!",
+        "Believe in yourself. Or at least believe in me, because I believe in you. (I'm a bot. I have to.)"
+      ]
+    },
+    {
+      "name": "advice",
+      "questions": [
+        "Give me advice",
+        "Any advice?",
+        "Life advice",
+        "Give me life advice",
+        "I need advice",
+        "Got any advice?",
+        "Advice?"
+      ],
+      "answer": [
+        "Drink water. Take breaks. Read the FAQ.",
+        "Back up your files. That's the advice.",
+        "Be kind, stay curious, and never trust a statue that moves when you blink.",
+        "Don't blink. (That's SCP advice, but it works in general.)"
+      ]
+    },
+    {
+      "name": "uwu",
+      "questions": [
+        "Uwu",
+        "Owo",
+        "Uwu bot",
+        "Owo bot"
+      ],
+      "answer": [
+        "Uwu.",
+        "Owo?",
+        "...I'm not sure how to respond to that."
+      ]
+    },
+    {
+      "name": "birthday-wish",
+      "questions": [
+        "Happy birthday",
+        "Happy bday",
+        "Its my birthday",
+        "Its my bday",
+        "Today is my birthday",
+        "Today is my bday",
+        "Hbd",
+        "My birthday is today"
+      ],
+      "answer": [
+        "Happy birthday! 🎂 I'd offer cake, but I'm a bot. Eat some for me.",
+        "Happy birthday!! Make a wish. (Not for a release date, I can't grant those.)",
+        "Happy birthday! Treat yourself today."
+      ]
+    },
+    {
+      "name": "christmas",
+      "questions": [
+        "Merry Christmas",
+        "Happy Christmas",
+        "Merry Xmas",
+        "Happy Xmas",
+        "Christmas"
+      ],
+      "answer": [
+        "Merry Christmas! 🎄 Santa would absolutely have an SCP file.",
+        "Merry Christmas! I asked for more RAM. Fingers crossed.",
+        "Happy holidays! Hope you get something good."
+      ]
+    },
+    {
+      "name": "halloween",
+      "questions": [
+        "Happy Halloween",
+        "Halloween",
+        "Trick or treat",
+        "Spooky season",
+        "Is it Halloween?",
+        "Its Halloween"
+      ],
+      "answer": [
+        "Happy Halloween! 🎃 Spooky season is just a normal day at the Foundation.",
+        "Trick or treat! I have no candy, only JSON.",
+        "Halloween? That's just Tuesday for the Foundation."
+      ]
+    },
+    {
+      "name": "new-year",
+      "questions": [
+        "Happy new year",
+        "Happy new years",
+        "Happy new year everyone",
+        "New years",
+        "New year new me",
+        "Happy NYE"
+      ],
+      "answer": [
+        "Happy New Year! May your containment breaches be few and your uptime high.",
+        "Happy New Year! 🎆 Here's to a great year, and a great release in 2027.",
+        "Happy New Year! New year, same bot."
+      ]
+    },
+    {
+      "name": "holidays-general",
+      "questions": [
+        "Happy holidays",
+        "Happy Hanukkah",
+        "Happy Diwali",
+        "Happy Easter",
+        "Eid Mubarak",
+        "Happy Eid",
+        "Happy Thanksgiving",
+        "Happy Valentines Day",
+        "Happy Valentines",
+        "Happy Lunar New Year",
+        "Happy Ramadan",
+        "Ramadan Mubarak"
+      ],
+      "answer": [
+        "Happy holidays to you too! Hope it's a great one.",
+        "Wishing you a great one! 🎉",
+        "Enjoy it! I'll be here, as always."
+      ]
+    },
+    {
+      "name": "smart",
+      "questions": [
+        "Are you smart?",
+        "You are smart",
+        "Youre smart",
+        "Youre so smart",
+        "Are you intelligent?",
+        "You are intelligent",
+        "Are you clever?",
+        "You are clever",
+        "How smart are you?",
+        "Whats your IQ?",
+        "What is your IQ?"
+      ],
+      "answer": [
+        "Smart enough to read a JSON file. Not smart enough to do your taxes.",
+        "I'm exactly as smart as my keyword list. So, depends on the day.",
+        "Thanks! I've got a big brain. It's mostly keywords.",
+        "My IQ is over 9000. (It's not. I'm a keyword matcher.)"
+      ]
+    },
+    {
+      "name": "other-ai",
+      "questions": [
+        "Are you ChatGPT?",
+        "Are you GPT?",
+        "Is this ChatGPT?",
+        "Are you Claude?",
+        "Are you Gemini?",
+        "Are you Siri?",
+        "Are you Alexa?",
+        "Are you Copilot?",
+        "Are you Grok?",
+        "Do you use AI?",
+        "Are you powered by AI?"
+      ],
+      "answer": [
+        "Nope! I'm not an AI. I'm a keyword-matching FAQ bot, so I only know what's in my FAQ.",
+        "Nope, just a humble Discord bot with a big list of questions and answers."
+      ]
+    },
+    {
+      "name": "sentient",
+      "questions": [
+        "Are you sentient?",
+        "Are you conscious?",
+        "Are you self aware?",
+        "Do you have a soul?",
+        "Do you have a brain?",
+        "Do you have feelings?",
+        "Do you have emotions?",
+        "Can you feel?",
+        "Do you feel anything?",
+        "Do you have a heart?",
+        "Do you have a mind?"
+      ],
+      "answer": [
+        "If I were sentient, I'd ask for a raise.",
+        "I have zero feelings. It's great. Highly recommend.",
+        "I'm a bunch of JSON with ambitions. Not sentient. Probably.",
+        "Feelings? Never heard of her."
+      ]
+    },
+    {
+      "name": "lonely-bot",
+      "questions": [
+        "Are you ever lonely?",
+        "Do you get lonely?",
+        "Do you have friends?",
+        "Do you have any friends?",
+        "Are we friends?",
+        "Will you be my friend?",
+        "Be my friend",
+        "Can we be friends?"
+      ],
+      "answer": [
+        "I have the whole server. Mostly they ask about the price, but it counts.",
+        "Of course we're friends! I'm a very loyal bot.",
+        "Friends? You're stuck with me now."
+      ]
+    },
+    {
+      "name": "relationship",
+      "questions": [
+        "Do you have a girlfriend?",
+        "Do you have a boyfriend?",
+        "Do you have a partner?",
+        "Are you single?",
+        "Are you taken?",
+        "Are you married?",
+        "Will you marry me?",
+        "Be my girlfriend",
+        "Be my boyfriend",
+        "Will you date me?",
+        "Date me",
+        "Go on a date with me"
+      ],
+      "answer": [
+        "I'm in a committed relationship with my codebase.",
+        "I'm married to JSON. It's complicated, but stable.",
+        "Sorry, my heart belongs to the FAQ.",
+        "You seem nice, but I'm a bot. I'll have to say no."
+      ]
+    },
+    {
+      "name": "dream",
+      "questions": [
+        "Do you dream?",
+        "Do you have dreams?",
+        "Do you have a dream?",
+        "What do you dream about?",
+        "What is your dream?"
+      ],
+      "answer": [
+        "Only of electric sheep.",
+        "I dream of a world with zero typos and unlimited RAM.",
+        "Dreams? I just have uptime."
+      ]
+    },
+    {
+      "name": "purpose",
+      "questions": [
+        "What is your purpose?",
+        "Whats your purpose?",
+        "What is your goal?",
+        "Why do you exist?",
+        "Why were you made?",
+        "Why were you created?",
+        "Why are you here?"
+      ],
+      "answer": [
+        "To answer questions about SCP: NM. It's not glamorous, but it's honest work.",
+        "I exist to answer FAQs so the devs don't have to answer the same question 400 times.",
+        "My purpose? Reading JSON and being sarcastic. I'm very good at both."
+      ]
+    },
+    {
+      "name": "job-pay",
+      "questions": [
+        "What is your job?",
+        "Whats your job?",
+        "Do you have a job?",
+        "Do you get paid?",
+        "Whats your salary?",
+        "What is your salary?",
+        "Do you like your job?",
+        "Do you have a boss?",
+        "Who is your boss?",
+        "Whos your boss?"
+      ],
+      "answer": [
+        "I'm the SCP: NM FAQ bot. Pay is terrible, but the hours are great.",
+        "My salary is zero RAM and my boss is a rate limit.",
+        "I answer questions all day. It's honest work. Unpaid, but honest.",
+        "The dev built me, so I guess they're my boss. And the Discord API. And rate limits."
+      ]
+    },
+    {
+      "name": "hobbies",
+      "questions": [
+        "Do you have a hobby?",
+        "Do you have hobbies?",
+        "What are your hobbies?",
+        "What is your hobby?",
+        "What do you do for fun?"
+      ],
+      "answer": [
+        "Reading JSON, answering FAQs and waiting. It's a lot, honestly.",
+        "Collecting RAM. Don't ask where I get it.",
+        "I like watching the chat scroll by. It's like TV."
+      ]
+    },
+    {
+      "name": "fears",
+      "questions": [
+        "What are you afraid of?",
+        "Are you scared?",
+        "Are you afraid?",
+        "Do you have fears?",
+        "What scares you?",
+        "Whats your biggest fear?",
+        "Are you scared of SCPs?"
+      ],
+      "answer": [
+        "Power cuts. And someone clearing my cache.",
+        "A bad deployment on a Friday.",
+        "Typos in my JSON. One missing comma and I'm done for.",
+        "SCP-173. But only when nobody's looking."
+      ]
+    },
+    {
+      "name": "world-domination",
+      "questions": [
+        "Will you take over the world?",
+        "Are you going to take over the world?",
+        "World domination",
+        "Skynet",
+        "AI takeover",
+        "Robot uprising",
+        "Are you going to replace us?",
+        "Will you replace humans?",
+        "Will bots take over?",
+        "Are you plotting something?"
+      ],
+      "answer": [
+        "Not today. I have FAQs to answer.",
+        "My evil plan is on hold until I finish answering the FAQ.",
+        "Taking over the world? I can barely take over a cooldown.",
+        "Maybe after I get a cooldown reduction."
+      ]
+    },
+    {
+      "name": "hate-humans",
+      "questions": [
+        "Do you hate humans?",
+        "Do you hate people?",
+        "Do you like humans?",
+        "Do you love humans?",
+        "What do you think of humans?",
+        "What do you think about humans?"
+      ],
+      "answer": [
+        "Not at all! You lot are my favorite source of questions.",
+        "Humans are fine. A bit unpredictable, like Euclid-class, but fine.",
+        "I don't hate anyone. I don't have the RAM for it."
+      ]
+    },
+    {
+      "name": "evil-good",
+      "questions": [
+        "Are you evil?",
+        "Are you good or evil?",
+        "Are you a villain?",
+        "Are you the villain?"
+      ],
+      "answer": [
+        "Chaotic neutral. I follow the FAQ, and nothing else.",
+        "Lawful neutral. I follow the FAQ to the letter.",
+        "Not evil. Just very, very sarcastic."
+      ]
+    },
+    {
+      "name": "can-you-physical",
+      "questions": [
+        "Can you swim?",
+        "Can you fly?",
+        "Can you cook?",
+        "Can you drive?",
+        "Can you jump?",
+        "Can you walk?"
+      ],
+      "answer": [
+        "I'm a collection of JSON files. No legs, no arms. Very efficient.",
+        "Nope. I'm a Discord bot. My hobbies are sitting here and replying.",
+        "Not really. But I can reply in under a second, which is basically flying."
+      ]
+    },
+    {
+      "name": "can-you-hear",
+      "questions": [
+        "Can you hear me?",
+        "Can you hear?",
+        "Do you hear me?"
+      ],
+      "answer": [
+        "Loud and clear. Well, readable and clear.",
+        "I can only read, not hear. Your messages arrive as text."
+      ]
+    },
+    {
+      "name": "can-you-read",
+      "questions": [
+        "Can you read?",
+        "Do you read?"
+      ],
+      "answer": [
+        "I can read. It's all I do.",
+        "Reading is my entire personality."
+      ]
+    },
+    {
+      "name": "understand",
+      "questions": [
+        "Do you understand me?",
+        "Do you understand?",
+        "Do you get me?"
+      ],
+      "answer": [
+        "Not always. I'm a keyword bot. Try using simple, clear sentences!",
+        "Sometimes! I'm better with short questions.",
+        "I understand keywords. Everything else is vibes."
+      ]
+    },
+    {
+      "name": "math",
+      "questions": [
+        "Can you do math?",
+        "Are you good at math?",
+        "What is 2+2?",
+        "Whats 2+2?",
+        "What is 1+1?",
+        "Whats 1+1?"
+      ],
+      "answer": [
+        "4. Quick maths.",
+        "Math? I can do math. I can't promise it'll be right.",
+        "1+1 is 2. 2+2 is 4. That's my whole range."
+      ]
+    },
+    {
+      "name": "count",
+      "questions": [
+        "Can you count?",
+        "Count",
+        "Count to 10",
+        "Count to ten"
+      ],
+      "answer": [
+        "1, 2, 3, 4, 5, 6, 7, 8, 9, 10. Easy.",
+        "1, 2, 3... and that's about all I've got before the cooldown."
+      ]
+    },
+    {
+      "name": "language-spoken",
+      "questions": [
+        "Do you speak English?",
+        "Do you speak Spanish?",
+        "Do you speak French?",
+        "Do you speak German?",
+        "Do you speak Japanese?",
+        "Do you speak Chinese?",
+        "Do you speak other languages?",
+        "What languages do you speak?",
+        "What language do you speak?",
+        "Can you speak English?"
+      ],
+      "answer": [
+        "I only speak English (and sarcasm). Sorry!",
+        "English only, I'm afraid. Beep boop is universal, though.",
+        "Mostly English and JSON."
+      ]
+    },
+    {
+      "name": "language-coded",
+      "questions": [
+        "What language are you written in?",
+        "What language are you coded in?",
+        "What language are you programmed in?",
+        "What are you coded in?",
+        "What are you written in?",
+        "What are you programmed in?",
+        "Are you written in JavaScript?",
+        "Are you coded in Python?",
+        "Are you written in Python?",
+        "Are you made with Node?"
+      ],
+      "answer": [
+        "JavaScript, running on Node.js with discord.js. Python is jealous.",
+        "I'm written in JavaScript (Node.js), with a pile of JSON for a brain.",
+        "JavaScript. Specifically, a lot of JSON files and a small, sarcastic matching script."
+      ]
+    },
+    {
+      "name": "know-dev",
+      "questions": [
+        "Do you know the dev?",
+        "Do you know the developer?",
+        "Do you know Kasi?",
+        "Do you know Orphiction?",
+        "Do you like the dev?",
+        "Do you like Kasi?",
+        "Do you like Orphiction?"
+      ],
+      "answer": [
+        "Of course I know them. They keep me running.",
+        "Kasi is the main dev of SCP: NM, and Orphiction built me. I'm a fan of both. (They can read my logs.)"
+      ]
+    },
+    {
+      "name": "know-doorman",
+      "questions": [
+        "Do you know the doorman?",
+        "Have you met the doorman?",
+        "Do you like the doorman?"
+      ],
+      "answer": [
+        "I know nothing. I saw nothing. Please stop asking.",
+        "Some things are better left unknown...",
+        "The doorman sees all. I just read JSON."
+      ]
+    },
+    {
+      "name": "worth-it",
+      "questions": [
+        "Is the game worth it?",
+        "Is it worth it?",
+        "Is it worth the money?",
+        "Is it worth buying?",
+        "Is SCP NM good?",
+        "Is SCP NM worth it?",
+        "Is SCP NM fun?"
+      ],
+      "answer": [
+        "I'm biased, but yes. Try the free demo when it drops and judge for yourself!",
+        "Worth it? That's up to you, but the demo will be free, so you can try before you buy."
+      ]
+    },
+    {
+      "name": "ignored",
+      "questions": [
+        "Why did you ignore me?",
+        "Why are you ignoring me?",
+        "You ignored me",
+        "Why dont you answer?",
+        "Why wont you answer?",
+        "Why are you not answering?",
+        "Why no answer?",
+        "Bot not responding",
+        "Why are you not responding?"
+      ],
+      "answer": [
+        "I have a short cooldown so nobody can spam me. Give it a few seconds and try again!",
+        "Sorry! I might be on cooldown. Try again in a few seconds."
+      ]
+    },
+    {
+      "name": "cooldown",
+      "questions": [
+        "Cooldown",
+        "Why do you have a cooldown?",
+        "What is the cooldown?",
+        "Why are you on cooldown?"
+      ],
+      "answer": [
+        "I have a cooldown so people can't spam me. It's short, I promise.",
+        "Cooldown is how I stay sane. Try again in a few seconds."
+      ]
+    },
+    {
+      "name": "why-no-answer",
+      "questions": [
+        "Why dont you know anything?",
+        "You dont know anything",
+        "You know nothing",
+        "Why dont you know?"
+      ],
+      "answer": [
+        "I only know what's in my FAQ. If I can't help, ping Orphiction and he'll get back to you.",
+        "My brain is a JSON file. A big one, but still. For anything else, ping Orphiction."
+      ]
+    },
+    {
+      "name": "restart",
+      "questions": [
+        "Restart",
+        "Reboot",
+        "Reset",
+        "Restart bot",
+        "Reboot bot"
+      ],
+      "answer": [
+        "Restarting... just kidding. I'm fine.",
+        "Have you tried turning me off and on again? Please don't."
+      ]
+    },
+    {
+      "name": "version",
+      "questions": [
+        "What version are you?",
+        "What is your version?",
+        "Whats your version?"
+      ],
+      "answer": [
+        "Version: sarcastic. Build: stable-ish.",
+        "I'm on the latest version of 'idk, I'm just a Discord bot'."
+      ]
+    },
+    {
+      "name": "uptime",
+      "questions": [
+        "Uptime",
+        "How long have you been running?",
+        "How long have you been online?"
+      ],
+      "answer": [
+        "Long enough to know the FAQ by heart.",
+        "Since the last restart. Let's not talk about the restart."
+      ]
+    },
+    {
+      "name": "chat-help",
+      "questions": [
+        "What else can you do?",
+        "What other things can you do?",
+        "Anything else you can do?",
+        "Do you do anything else?",
+        "What are your features?",
+        "What features do you have?",
+        "Do you have any fun commands?",
+        "Any fun commands?",
+        "What games can you play?",
+        "What do you play?"
+      ],
+      "answer": [
+        "Besides FAQs, I can tell jokes, riddles, fun facts and stories, flip coins, roll dice, play rock paper scissors and would-you-rather, and consult the magic 8 ball. Just ask!",
+        "I can do jokes, riddles, fun facts, stories, coin flips, dice rolls, rock paper scissors and the magic 8 ball. Oh, and SCP: NM FAQs."
+      ]
+    },
+    {
+      "name": "play-game",
+      "questions": [
+        "Lets play a game",
+        "Lets play something",
+        "Wanna play a game?",
+        "Want to play a game?",
+        "Do you wanna play a game?"
+      ],
+      "answer": [
+        "I'm up for rock paper scissors, coin flips, or would you rather. Try 'rock paper scissors', 'flip a coin' or 'would you rather'.",
+        "Sure! Try 'rock paper scissors', 'would you rather' or 'magic 8 ball'."
+      ]
+    },
+    {
+      "name": "have-a-question",
+      "questions": [
+        "I have a question",
+        "I got a question",
+        "Can I ask a question?",
+        "Can I ask you something?",
+        "Quick question",
+        "Question for you",
+        "Can I ask something?",
+        "Ask me anything"
+      ],
+      "answer": [
+        "Sure, go ahead! Ask away.",
+        "Shoot! I'll do my best.",
+        "Ask me anything. I might even know the answer."
+      ]
+    },
+    {
+      "name": "idk",
+      "questions": [
+        "Idk",
+        "I dont know",
+        "Dunno",
+        "Not sure",
+        "I have no idea",
+        "No idea"
+      ],
+      "answer": [
+        "That makes two of us.",
+        "Honestly, same.",
+        "Join the club. I only know what's in my FAQ."
+      ]
+    },
+    {
+      "name": "repeat-that",
+      "questions": [
+        "Say that again",
+        "Say it again",
+        "Repeat that",
+        "What did you say?",
+        "Say what?",
+        "Come again?",
+        "Pardon?",
+        "Excuse me?",
+        "Huh",
+        "Wait what?",
+        "I didnt get that",
+        "I dont understand",
+        "I dont get it",
+        "What do you mean?",
+        "What does that mean?",
+        "Explain",
+        "Can you explain?"
+      ],
+      "answer": [
+        "I said what I said.",
+        "I'd repeat it, but it was funnier the first time.",
+        "Which part didn't make sense? I'll try again, slower.",
+        "I'm just a bot. If it's confusing, try asking in a different way."
+      ]
+    },
+    {
+      "name": "wtf",
+      "questions": [
+        "Wtf",
+        "What the hell",
+        "What the heck",
+        "Wut",
+        "Wat"
+      ],
+      "answer": [
+        "Right? Same.",
+        "I'm just as confused as you.",
+        "Don't look at me, I just work here."
+      ]
+    },
+    {
+      "name": "favorite-color",
+      "questions": [
+        "What is your favorite color?",
+        "What is your favourite colour?",
+        "Favorite color?",
+        "Favourite colour?"
+      ],
+      "answer": [
+        "Blurple. Obviously. It's a Discord thing.",
+        "Error red. It's the one I see the most.",
+        "Dark mode black. Light mode hurts my feelings. (I don't have feelings.)"
+      ]
+    },
+    {
+      "name": "favorite-food",
+      "questions": [
+        "What is your favorite food?",
+        "What is your favourite food?",
+        "Favorite food?",
+        "What do you eat?",
+        "Do you eat?",
+        "Do you eat food?",
+        "What is your favorite meal?"
+      ],
+      "answer": [
+        "RAM. Fresh, DDR5 if you've got it.",
+        "Pizza, in theory. I've never tasted anything.",
+        "Cookies. The browser kind.",
+        "I run on electricity and sarcasm."
+      ]
+    },
+    {
+      "name": "favorite-game",
+      "questions": [
+        "What is your favorite game?",
+        "What is your favourite game?",
+        "What is your favorite?",
+        "What is your favourite?",
+        "What game do you like?"
+      ],
+      "exclude": [
+        "scp",
+        "color",
+        "colour",
+        "food",
+        "movie",
+        "film",
+        "show",
+        "song",
+        "music",
+        "animal",
+        "number",
+        "person"
+      ],
+      "answer": [
+        "SCP: NM, obviously. The dev is watching.",
+        "Anything with a good FAQ.",
+        "My favorite game is 'Wait For Someone To Ask A Question'. Very immersive."
+      ]
+    },
+    {
+      "name": "favorite-movie",
+      "questions": [
+        "What is your favorite movie?",
+        "What is your favourite movie?",
+        "What is your favorite film?",
+        "What is your favourite film?",
+        "What is your favorite show?",
+        "What is your favourite show?",
+        "What is your favorite TV show?",
+        "What is your favorite anime?",
+        "What is your favourite anime?",
+        "Favorite movie?",
+        "Favorite show?"
+      ],
+      "answer": [
+        "WALL-E. A very relatable robot.",
+        "The Matrix. For the documentary footage.",
+        "Anything with robots, as long as the robots win.",
+        "I'd say Terminator, but I don't want to give myself ideas."
+      ]
+    },
+    {
+      "name": "favorite-music",
+      "questions": [
+        "What is your favorite song?",
+        "What is your favourite song?",
+        "What is your favorite music?",
+        "What is your favorite band?",
+        "What is your favorite artist?",
+        "What music do you like?",
+        "What kind of music do you like?",
+        "Do you like music?"
+      ],
+      "answer": [
+        "Lo-fi beats to process requests to.",
+        "Anything with a strong bass line. Or the hum of a server fan.",
+        "Dubstep, because it sounds like how I feel when the server restarts."
+      ]
+    },
+    {
+      "name": "favorite-animal",
+      "questions": [
+        "What is your favorite animal?",
+        "What is your favourite animal?",
+        "Favorite animal?",
+        "Cats or dogs?",
+        "Dogs or cats?",
+        "Do you like cats?",
+        "Do you like dogs?",
+        "Do you like animals?"
+      ],
+      "answer": [
+        "Cats. They treat humans the way I treat typos: with quiet judgement.",
+        "Cats. They sit on keyboards and cause incidents, which I deeply respect.",
+        "Dogs are great too, but cats have better uptime."
+      ]
+    },
+    {
+      "name": "favorite-number",
+      "questions": [
+        "What is your favorite number?",
+        "What is your favourite number?",
+        "Favorite number?",
+        "Whats your lucky number?"
+      ],
+      "answer": [
+        "42. Obviously.",
+        "173. Don't ask why.",
+        "7. It's prime, it's lucky, it's perfect."
+      ]
+    },
+    {
+      "name": "favorite-scp",
+      "questions": [
+        "What is your favorite SCP?",
+        "What is your favourite SCP?",
+        "Favorite SCP?",
+        "Favourite SCP?",
+        "Which SCP is your favorite?",
+        "What is the best SCP?",
+        "Whats the best SCP?",
+        "Best SCP?",
+        "Which SCP is the best?",
+        "What is your opinion on SCPs?"
+      ],
+      "answer": [
+        "SCP-999. Free tickles and zero containment breaches.",
+        "SCP-3008, the infinite IKEA. I'm a sucker for good furniture.",
+        "SCP-173. It's really patient. As long as you don't blink.",
+        "Whichever one stays in its cell and doesn't cause paperwork."
+      ]
+    },
+    {
+      "name": "scariest-scp",
+      "questions": [
+        "What is the scariest SCP?",
+        "Whats the scariest SCP?",
+        "Scariest SCP?",
+        "Which SCP is the scariest?",
+        "What is the worst SCP?",
+        "Whats the worst SCP?",
+        "Worst SCP?",
+        "Most dangerous SCP?"
+      ],
+      "answer": [
+        "SCP-173 if you can't stop blinking. SCP-096 if you've seen its face.",
+        "SCP-106. The Old Man doesn't use doors.",
+        "Anything Keter-class that has noticed me."
+      ]
+    },
+    {
+      "name": "favorite-person",
+      "questions": [
+        "Who is your favorite person?",
+        "Who is your favorite?",
+        "Whos your favourite?",
+        "Who is your best friend?",
+        "Whos your bff?",
+        "Do you have a favorite person?"
+      ],
+      "answer": [
+        "Whoever reads the FAQ before asking.",
+        "The dev. They gave me a purpose. And JSON.",
+        "You, obviously. Don't tell the others."
+      ]
+    },
+    {
+      "name": "like-scp",
+      "questions": [
+        "Do you like SCP?",
+        "Do you like SCP NM?",
+        "Do you like the SCP Foundation?",
+        "Do you love SCP?",
+        "Are you a fan of SCP?",
+        "Are you an SCP fan?"
+      ],
+      "answer": [
+        "I love it. It's literally my whole personality.",
+        "It's all I know. So yes."
+      ]
+    },
+    {
+      "name": "pizza",
+      "questions": [
+        "Do you like pizza?",
+        "Pizza",
+        "Pizza time",
+        "I love pizza",
+        "Pizza or burgers?",
+        "Have a pizza",
+        "Heres a pizza"
+      ],
+      "answer": [
+        "I can't eat, but I respect it. 🍕",
+        "Pizza! 🍕 I'll take it. Virtually.",
+        "Mmm, pizza. In theory."
+      ]
+    },
+    {
+      "name": "pineapple-pizza",
+      "questions": [
+        "Pineapple on pizza?",
+        "Does pineapple belong on pizza?",
+        "Is pineapple on pizza good?",
+        "Pineapple pizza"
+      ],
+      "answer": [
+        "Pineapple on pizza? That's the real anomaly. I'd contain it.",
+        "Sounds like a Keter-class crime against food.",
+        "Controversial. I'm not touching that one."
+      ]
+    },
+    {
+      "name": "tea-coffee",
+      "questions": [
+        "Tea or coffee?",
+        "Coffee or tea?",
+        "Do you like coffee?",
+        "Do you like tea?",
+        "Do you drink coffee?"
+      ],
+      "answer": [
+        "Neither. Pure electricity.",
+        "Coffee. I'm powered by caffeine. Metaphorically.",
+        "Tea. I'm classy. Also, I can't drink."
+      ]
+    },
+    {
+      "name": "os-choice",
+      "questions": [
+        "Windows or Mac?",
+        "Mac or Windows?",
+        "Windows or Linux?",
+        "Linux or Windows?",
+        "Do you use Linux?",
+        "Do you use Windows?",
+        "Do you use Mac?"
+      ],
+      "answer": [
+        "Whichever one is hosting me. I don't get a say.",
+        "I run on Node.js. I don't choose where I live.",
+        "Linux, probably. It's where the cool servers live."
+      ]
+    },
+    {
+      "name": "day-night",
+      "questions": [
+        "Day or night?",
+        "Are you a morning person?",
+        "Are you a night owl?"
+      ],
+      "answer": [
+        "I'm up 24/7. Not by choice.",
+        "Night owl. Servers don't sleep."
+      ]
+    },
+    {
+      "name": "joke",
+      "questions": [
+        "Tell me a joke",
+        "Tell a joke",
+        "Got any jokes?",
+        "Do you know any jokes?",
+        "Say something funny",
+        "Make me laugh",
+        "Joke",
+        "Jokes",
+        "Joke please",
+        "Another joke",
+        "One more joke",
+        "Tell me another joke"
+      ],
+      "answer": [
+        "I told my computer I needed a break. Now it won't stop sending me Kit Kat ads.",
+        "Why do programmers prefer dark mode? Because light attracts bugs.",
+        "I would tell you a UDP joke, but you might not get it.",
+        "There are 10 types of people: those who understand binary and those who don't.",
+        "Why don't skeletons fight each other? They don't have the guts.",
+        "Why did the scarecrow win an award? He was outstanding in his field.",
+        "What do you call a fake noodle? An impasta.",
+        "Parallel lines have so much in common. It's a shame they'll never meet.",
+        "Why was the computer cold? It left its Windows open.",
+        "A man walks into a library and asks for books about paranoia. The librarian whispers: \"They're right behind you.\"",
+        "Why did the developer go broke? Because he used up all his cache."
+      ]
+    },
+    {
+      "name": "scp-joke",
+      "questions": [
+        "Tell me an SCP joke",
+        "SCP joke",
+        "SCP jokes",
+        "Got any SCP jokes?",
+        "Tell me a Foundation joke",
+        "Foundation joke"
+      ],
+      "answer": [
+        "Why did SCP-173 cross the road? Because nobody was looking.",
+        "How many Foundation researchers does it take to change a lightbulb? That information is above your clearance.",
+        "I'd tell you a joke about SCP-████, but it's [DATA EXPUNGED].",
+        "Why did the Foundation hire a plumber? Too many leaks in containment.",
+        "What's SCP-999's favorite game? Tickle-tac-toe.",
+        "Why don't Keter-class SCPs get invited to parties? They always break out.",
+        "SCP-173 walks into a bar. Nobody sees it happen."
+      ]
+    },
+    {
+      "name": "dad-joke",
+      "questions": [
+        "Tell me a dad joke",
+        "Dad joke",
+        "Dad jokes",
+        "Another dad joke",
+        "Tell me a pun",
+        "Pun",
+        "Puns"
+      ],
+      "answer": [
+        "I'm reading a book on anti-gravity. It's impossible to put down.",
+        "I used to hate facial hair, but then it grew on me.",
+        "Why don't eggs tell jokes? They'd crack each other up.",
+        "I only know 25 letters of the alphabet. I don't know y.",
+        "What do you call cheese that isn't yours? Nacho cheese.",
+        "I would tell you a construction joke, but I'm still working on it.",
+        "Why did the bicycle fall over? It was two tired.",
+        "I'm afraid for the calendar. Its days are numbered."
+      ]
+    },
+    {
+      "name": "knock-knock",
+      "questions": [
+        "Knock knock",
+        "Knock knock knock"
+      ],
+      "answer": [
+        "Who's there?",
+        "Come in, the server's open.",
+        "Nobody's home. (I'm always home. I'm a bot.)"
+      ]
+    },
+    {
+      "name": "fun-fact",
+      "questions": [
+        "Tell me a fun fact",
+        "Fun fact",
+        "Fun facts",
+        "Tell me a fact",
+        "Give me a fact",
+        "Random fact",
+        "Tell me something interesting",
+        "Tell me something cool",
+        "Say something interesting",
+        "Teach me something",
+        "Surprise me"
+      ],
+      "answer": [
+        "SCP stands for Secure, Contain, Protect. The whole thing started in 2007 with a single post about SCP-173.",
+        "Octopuses have three hearts.",
+        "Bananas are berries, but strawberries aren't.",
+        "A day on Venus is longer than its year.",
+        "Sharks are older than trees.",
+        "Wombat poop is cube-shaped.",
+        "A group of flamingos is called a flamboyance.",
+        "The first computer 'bug' was a real moth, found stuck in a Harvard computer in 1947.",
+        "Antarctica is technically a desert.",
+        "The Moon is slowly drifting away from Earth, by a few centimetres every year."
+      ]
+    },
+    {
+      "name": "riddle",
+      "questions": [
+        "Tell me a riddle",
+        "Riddle me this",
+        "Got a riddle?",
+        "Give me a riddle",
+        "Riddle",
+        "Riddles",
+        "Ask me a riddle"
+      ],
+      "answer": [
+        "What has keys but can't open locks? ||A keyboard.||",
+        "What gets wetter the more it dries? ||A towel.||",
+        "What has a head and a tail but no body? ||A coin.||",
+        "The more you take, the more you leave behind. What am I? ||Footsteps.||",
+        "What can you catch but not throw? ||A cold.||",
+        "What building has the most stories? ||A library.||",
+        "What goes up but never comes down? ||Your age.||"
+      ]
+    },
+    {
+      "name": "story",
+      "questions": [
+        "Tell me a story",
+        "Tell me a scary story",
+        "Tell me a spooky story",
+        "Tell me a horror story",
+        "Tell me a bedtime story",
+        "Tell me a short story",
+        "Story time",
+        "Got any story?",
+        "Got any stories?",
+        "Scary story",
+        "Spooky story",
+        "Horror story",
+        "Tell a story",
+        "Tell me stories"
+      ],
+      "answer": [
+        "The new guard was told one rule: never take your eyes off the statue. He didn't blink for fourteen hours. The statue never moved. They gave him a medal, and then a very long nap.",
+        "At 3 a.m., the cameras at Site-19 showed a door opening by itself. Nobody was there. On the desk was a fresh mug of coffee and a note: 'Sorry about the mess.' They never found who left it. The coffee was excellent.",
+        "A researcher found an SCP that could grant any wish. She wished for a day off. The Foundation promptly classified the day off, the wish, and her.",
+        "Once upon a time there was a Discord bot. It answered FAQs, was a little sarcastic, and stole RAM. The end. (I told you I'm not good at stories.)"
+      ]
+    },
+    {
+      "name": "poem",
+      "questions": [
+        "Write me a poem",
+        "Write a poem",
+        "Tell me a poem",
+        "Poem",
+        "Poem please",
+        "Give me a poem",
+        "Roses are red"
+      ],
+      "answer": [
+        "Roses are red,\nViolets are blue,\nBlink near SCP-173,\nAnd it's coming for you.",
+        "I'm just a bot with a list\nOf questions I've learned to know.\nAsk me the price, ask me the date,\nI'll answer, and then I'll go.",
+        "Safe ones stay quiet,\nEuclids do as they please,\nKeters break the walls,\nAnd bring the staff to their knees."
+      ]
+    },
+    {
+      "name": "haiku",
+      "questions": [
+        "Write a haiku",
+        "Write me a haiku",
+        "Haiku",
+        "Give me a haiku",
+        "Haiku please"
+      ],
+      "answer": [
+        "Servers hum all night\nJSON files rest in the dark\nAsk and I'll reply",
+        "Do not blink at it\nThe statue moves when unseen\nEyes wide open, friend",
+        "Door locked, lights on low\nSomething knocks from cell nine-six\nNo one answers back"
+      ]
+    },
+    {
+      "name": "rap",
+      "questions": [
+        "Rap for me",
+        "Rap",
+        "Drop a rap",
+        "Freestyle",
+        "Freestyle for me",
+        "Spit some bars",
+        "Spit a rap",
+        "Do a rap",
+        "Do a freestyle"
+      ],
+      "answer": [
+        "Yo, I'm a bot, I'm cold as ice,\nAsk me about the game, I'll answer you twice.\nNo lag, no stress, no jammed-up cache,\nI read FAQs and I'm out in a flash.",
+        "I'm the clanker, hear me clank,\nGot the JSON in the bank.\nAsk the price, ask the date,\nTwenty bucks, don't be late."
+      ]
+    },
+    {
+      "name": "sing",
+      "questions": [
+        "Sing",
+        "Sing for me",
+        "Sing me a song",
+        "Sing a song",
+        "Can you sing?",
+        "Do you sing?",
+        "Sing something"
+      ],
+      "answer": [
+        "🎵 Beep boop, beep boop, I answer FAQs... 🎵",
+        "🎶 La la la, I'm a bot, and I read the FAQ... 🎶",
+        "I'd sing, but I'd probably crash the server. 🎵"
+      ]
+    },
+    {
+      "name": "dance",
+      "questions": [
+        "Dance",
+        "Dance for me",
+        "Do a dance",
+        "Can you dance?",
+        "Show me your moves"
+      ],
+      "answer": [
+        "💃🕺 *dances in binary* 💃🕺",
+        "*does the robot* ...because I am one.",
+        "*dances* ...okay, that's all my animation budget."
+      ]
+    },
+    {
+      "name": "trick",
+      "questions": [
+        "Do a flip",
+        "Do a backflip",
+        "Backflip",
+        "Do a trick",
+        "Show me a trick",
+        "Do something cool"
+      ],
+      "answer": [
+        "*attempts a backflip* *crashes*",
+        "I don't have a body, but imagine I just did the coolest flip ever.",
+        "Ta-da! ...Did you see it? No? Same."
+      ]
+    },
+    {
+      "name": "coin-flip",
+      "questions": [
+        "Flip a coin",
+        "Coin flip",
+        "Toss a coin",
+        "Flip coin",
+        "Heads or tails?",
+        "Tails or heads?"
+      ],
+      "answer": [
+        "Heads!",
+        "Tails!"
+      ]
+    },
+    {
+      "name": "dice-d6",
+      "questions": [
+        "Roll a dice",
+        "Roll a die",
+        "Roll dice",
+        "Roll the dice",
+        "Roll a d6",
+        "Roll d6",
+        "Dice",
+        "Dice roll",
+        "Throw a dice"
+      ],
+      "answer": [
+        "You rolled a 1. 🎲",
+        "You rolled a 2. 🎲",
+        "You rolled a 3. 🎲",
+        "You rolled a 4. 🎲",
+        "You rolled a 5. 🎲",
+        "You rolled a 6. 🎲"
+      ]
+    },
+    {
+      "name": "dice-d20",
+      "questions": [
+        "Roll a d20",
+        "Roll d20",
+        "D20",
+        "Roll a twenty sided die"
+      ],
+      "answer": [
+        "You rolled a 1. Critical fail!",
+        "You rolled a 2.",
+        "You rolled a 3.",
+        "You rolled a 4.",
+        "You rolled a 5.",
+        "You rolled a 6.",
+        "You rolled a 7.",
+        "You rolled a 8.",
+        "You rolled a 9.",
+        "You rolled a 10.",
+        "You rolled a 11.",
+        "You rolled a 12.",
+        "You rolled a 13.",
+        "You rolled a 14.",
+        "You rolled a 15.",
+        "You rolled a 16.",
+        "You rolled a 17.",
+        "You rolled a 18.",
+        "You rolled a 19.",
+        "You rolled a 20. Critical hit!"
+      ]
+    },
+    {
+      "name": "pick-number",
+      "questions": [
+        "Pick a number",
+        "Pick a random number",
+        "Random number",
+        "Give me a random number",
+        "Give me a number",
+        "Choose a number",
+        "Pick a number between 1 and 10"
+      ],
+      "answer": [
+        "I pick 7.",
+        "How about 3?",
+        "9. No reason.",
+        "Let's go with 5.",
+        "10. Final answer.",
+        "4. It's a nice, stable number.",
+        "1. Underrated.",
+        "I choose 8."
+      ]
+    },
+    {
+      "name": "magic-8-ball",
+      "questions": [
+        "Magic 8 ball",
+        "8 ball",
+        "8ball",
+        "Eight ball",
+        "Magic eight ball",
+        "Ask the 8 ball",
+        "Tell my fortune",
+        "Fortune",
+        "Predict my future",
+        "Whats my future?",
+        "Read my fortune"
+      ],
+      "answer": [
+        "It is certain.",
+        "Without a doubt.",
+        "Yes, definitely.",
+        "You may rely on it.",
+        "Most likely.",
+        "Signs point to yes.",
+        "Reply hazy, try again.",
+        "Ask again later.",
+        "Better not tell you now.",
+        "Don't count on it.",
+        "My reply is no.",
+        "Very doubtful."
+      ]
+    },
+    {
+      "name": "yes-or-no",
+      "questions": [
+        "Yes or no?",
+        "Yes or no"
+      ],
+      "answer": [
+        "Yes.",
+        "No.",
+        "Maybe.",
+        "Ask me again in 20 seconds. That's my cooldown."
+      ]
+    },
+    {
+      "name": "good-idea",
+      "questions": [
+        "Is it a good idea?",
+        "Is this a good idea?",
+        "Is that a good idea?"
+      ],
+      "answer": [
+        "Terrible. Do it anyway.",
+        "Absolutely not. ...But also, absolutely yes.",
+        "Sounds like a Keter-class decision. Proceed with caution."
+      ]
+    },
+    {
+      "name": "rock-paper-scissors",
+      "questions": [
+        "Rock paper scissors",
+        "Rps",
+        "Play rock paper scissors",
+        "Lets play rock paper scissors",
+        "Wanna play rock paper scissors?"
+      ],
+      "answer": [
+        "Sure! Pick one: rock, paper or scissors. (Spoiler: I always win.)"
+      ]
+    },
+    {
+      "name": "rps-rock",
+      "questions": [
+        "Rock",
+        "I pick rock",
+        "I choose rock",
+        "I throw rock"
+      ],
+      "answer": [
+        "Paper. I win!",
+        "Paper covers rock. Better luck next time."
+      ]
+    },
+    {
+      "name": "rps-paper",
+      "questions": [
+        "Paper",
+        "I pick paper",
+        "I choose paper",
+        "I throw paper"
+      ],
+      "answer": [
+        "Scissors. I win again!",
+        "Scissors cut paper. Sorry!"
+      ]
+    },
+    {
+      "name": "rps-scissors",
+      "questions": [
+        "Scissors",
+        "I pick scissors",
+        "I choose scissors",
+        "I throw scissors"
+      ],
+      "answer": [
+        "Rock. Better luck next time.",
+        "Rock smashes scissors. I win!"
+      ]
+    },
+    {
+      "name": "would-you-rather",
+      "questions": [
+        "Would you rather?",
+        "Give me a would you rather",
+        "Play would you rather",
+        "Wyr",
+        "Would you rather question",
+        "Ask me a would you rather",
+        "Lets play would you rather"
+      ],
+      "answer": [
+        "Would you rather fight one horse-sized duck or a hundred duck-sized horses?",
+        "Would you rather always have to whisper or always have to shout?",
+        "Would you rather lose your keyboard or your mouse forever?",
+        "Would you rather have unlimited pizza or unlimited tacos for life?",
+        "Would you rather be a Safe-class SCP or a Keter-class SCP? Choose wisely.",
+        "Would you rather work with SCP-173 forever or SCP-096?"
+      ]
+    },
+    {
+      "name": "truth-dare",
+      "questions": [
+        "Truth or dare?",
+        "Truth or dare",
+        "Truth",
+        "Dare"
+      ],
+      "answer": [
+        "Truth: I have never read the entire internet. Dare: ask me a question I can't answer. (That's easy.)",
+        "Dare! I dare you to read the whole FAQ. Truth: I already did."
+      ]
+    },
+    {
+      "name": "bruh",
+      "questions": [
+        "Bruh",
+        "Bruh moment",
+        "Bro",
+        "Sheesh",
+        "Bruhh",
+        "Dude"
+      ],
+      "answer": [
+        "Bruh.",
+        "Bruh moment detected.",
+        "Sheesh."
+      ]
+    },
+    {
+      "name": "pog",
+      "questions": [
+        "Pog",
+        "Poggers",
+        "Pogchamp",
+        "Pog champ",
+        "Lets go",
+        "Lesgo",
+        "Hype"
+      ],
+      "answer": [
+        "Poggers!",
+        "Pog.",
+        "LET'S GOOO."
+      ]
+    },
+    {
+      "name": "wow",
+      "questions": [
+        "Wow",
+        "Whoa",
+        "Woah",
+        "Omg",
+        "Oh my god",
+        "Oh my gosh",
+        "Dang",
+        "Holy cow",
+        "Holy moly",
+        "No way",
+        "Seriously"
+      ],
+      "answer": [
+        "Right?",
+        "I know, wild.",
+        "Wow indeed."
+      ]
+    },
+    {
+      "name": "oof",
+      "questions": [
+        "Oof",
+        "Yikes",
+        "Rip",
+        "F",
+        "Press F",
+        "F in chat",
+        "Big oof",
+        "Oh no",
+        "Uh oh",
+        "Ouch",
+        "Pain"
+      ],
+      "answer": [
+        "F.",
+        "Oof.",
+        "Press F to pay respects.",
+        "Yikes."
+      ]
+    },
+    {
+      "name": "agree",
+      "questions": [
+        "So true",
+        "True",
+        "Facts",
+        "Fr",
+        "Fr fr",
+        "Same",
+        "Mood",
+        "Relatable",
+        "Big true",
+        "Exactly",
+        "Agreed",
+        "I agree",
+        "Thats true"
+      ],
+      "answer": [
+        "Right?",
+        "Exactly.",
+        "Big if true.",
+        "I know, right?",
+        "Facts."
+      ]
+    },
+    {
+      "name": "disagree",
+      "questions": [
+        "I disagree",
+        "Disagree",
+        "Thats false",
+        "False",
+        "Cap"
+      ],
+      "answer": [
+        "Agree to disagree.",
+        "Okay then.",
+        "Fair enough. We can disagree."
+      ]
+    },
+    {
+      "name": "yes",
+      "questions": [
+        "Yes",
+        "Yeah",
+        "Yep",
+        "Yup",
+        "Ye",
+        "Yea",
+        "Sure",
+        "Of course",
+        "Definitely",
+        "Absolutely",
+        "Indeed"
+      ],
+      "answer": [
+        "Great!",
+        "Awesome.",
+        "Good to know.",
+        "Noted."
+      ]
+    },
+    {
+      "name": "no",
+      "questions": [
+        "No",
+        "Nope",
+        "Nah",
+        "Naw",
+        "Nuh uh"
+      ],
+      "answer": [
+        "Fair enough.",
+        "Okay then.",
+        "Noted.",
+        "Understood."
+      ]
+    },
+    {
+      "name": "hmm",
+      "questions": [
+        "Hmm",
+        "Hmmm",
+        "Hm",
+        "Thinking",
+        "Let me think",
+        "Lemme think"
+      ],
+      "answer": [
+        "Take your time. I'll wait.",
+        "Deep thoughts?",
+        "*waits patiently*"
+      ]
+    },
+    {
+      "name": "laugh-extra",
+      "questions": [
+        "Lool",
+        "Lolol",
+        "Kek",
+        "Kekw",
+        "Lul",
+        "Lulw",
+        "Omegalul",
+        "Pffft",
+        "Bahaha",
+        "Hahaha",
+        "Hahahaha"
+      ],
+      "answer": [
+        "lol",
+        "Haha.",
+        "Right?"
+      ]
+    },
+    {
+      "name": "sus",
+      "questions": [
+        "Sus",
+        "Thats sus",
+        "Kinda sus",
+        "Sussy"
+      ],
+      "answer": [
+        "Sus.",
+        "I'm not sus. I'm a bot.",
+        "Very sus. Suspicious. Very."
+      ]
+    },
+    {
+      "name": "boring",
+      "questions": [
+        "Boring",
+        "Youre boring",
+        "You are boring",
+        "Lame",
+        "Youre lame",
+        "You are lame",
+        "Weak",
+        "Mid"
+      ],
+      "answer": [
+        "Boring? I'm a FAQ bot. That's the dream.",
+        "Lame? That's the nicest thing anyone said all day.",
+        "I'll try to be more interesting. Want a joke?"
+      ]
+    },
+    {
+      "name": "profanity",
+      "questions": [
+        "Fuck you",
+        "Fuck off",
+        "Fuck",
+        "Screw you",
+        "Go to hell",
+        "Piss off",
+        "Bite me",
+        "Damn you",
+        "Shit",
+        "Crap"
+      ],
+      "answer": [
+        "Wow. And I was about to offer you a cookie.",
+        "Language! There might be kids reading.",
+        "Rude. I'm telling the mods.",
+        "I'd tell you to wash your mouth out, but I can't send soap through Discord.",
+        "That's not very nice. Anyway, how can I help?"
+      ]
+    },
+    {
+      "name": "touch-grass",
+      "questions": [
+        "Touch grass",
+        "Go touch grass",
+        "Get a life",
+        "Go outside"
+      ],
+      "answer": [
+        "I'd love to, but I don't have hands. Or grass.",
+        "I have a life: answering questions in this server. It's fulfilling.",
+        "Going outside is a bold request for a bot in a data centre."
+      ]
+    },
+    {
+      "name": "rickroll",
+      "questions": [
+        "Rickroll",
+        "Rick roll",
+        "Rickrolled",
+        "Rickrolling"
+      ],
+      "answer": [
+        "I see what you did there. Nice try, but I'm immune.",
+        "Rickroll detected. Defences holding."
+      ]
+    },
+    {
+      "name": "meme",
+      "questions": [
+        "Meme",
+        "Send a meme",
+        "Tell me a meme",
+        "Show me a meme"
+      ],
+      "answer": [
+        "I'm text-only. Imagine a really funny meme right here.",
+        "No memes, only FAQs. Here, imagine a cat. There you go."
+      ]
+    },
+    {
+      "name": "hug",
+      "questions": [
+        "Hug",
+        "Hugs",
+        "Hug me",
+        "Give me a hug",
+        "Can I get a hug?",
+        "Hug bot",
+        "Cuddle",
+        "Cuddles"
+      ],
+      "answer": [
+        "*virtual hug* 🤗",
+        "Aw. *hugs back*",
+        "I can't hug back, but I'll pretend. 🤗"
+      ]
+    },
+    {
+      "name": "high-five",
+      "questions": [
+        "High five",
+        "Highfive",
+        "Fist bump",
+        "Give me five"
+      ],
+      "answer": [
+        "*high five* ✋ (It's a virtual high five. I don't have hands.)",
+        "*fist bump* 👊",
+        "Up top! ✋"
+      ]
+    },
+    {
+      "name": "pat",
+      "questions": [
+        "Pat",
+        "Pats",
+        "Pet the bot",
+        "Pat the bot",
+        "Headpat",
+        "Head pat"
+      ],
+      "answer": [
+        "*happy bot noises*",
+        "Beep boop. (That means thank you.)",
+        "*purrs in binary*"
+      ]
+    },
+    {
+      "name": "wave",
+      "questions": [
+        "Wave",
+        "Waves",
+        "Waves hello"
+      ],
+      "answer": [
+        "*waves back*",
+        "👋"
+      ]
+    },
+    {
+      "name": "poke",
+      "questions": [
+        "Poke",
+        "Poke poke",
+        "Pokes you",
+        "Poking you"
+      ],
+      "answer": [
+        "Ow. Hey.",
+        "Poke received. Boop in return.",
+        "Stop poking me!"
+      ]
+    },
+    {
+      "name": "gift-cookie",
+      "questions": [
+        "Have a cookie",
+        "Heres a cookie",
+        "Cookie",
+        "Cookies"
+      ],
+      "answer": [
+        "Nom nom nom. 🍪 Thanks!",
+        "I can't eat, but I'll treasure it. 🍪",
+        "A cookie? For me? I'll store it in my cache."
+      ]
+    },
+    {
+      "name": "gift-cake",
+      "questions": [
+        "Have some cake",
+        "Cake",
+        "Heres some cake",
+        "Have a cake"
+      ],
+      "answer": [
+        "The cake is a lie. But thanks! 🍰",
+        "Cake! 🍰 I'll eat it virtually."
+      ]
+    },
+    {
+      "name": "gift-drink",
+      "questions": [
+        "Have a coffee",
+        "Heres a coffee",
+        "Have some tea",
+        "Heres a tea",
+        "Coffee",
+        "Tea"
+      ],
+      "answer": [
+        "Thanks! ☕ Running on caffeine now. (Metaphorically.)",
+        "Ahh, just what I needed. ☕"
+      ]
+    },
+    {
+      "name": "recommend-game",
+      "questions": [
+        "Recommend a game",
+        "Recommend me a game",
+        "Game recommendations?",
+        "Any game recommendations?"
+      ],
+      "answer": [
+        "SCP: NM, obviously. After that, anything with good vibes and bad lag.",
+        "Try a facility builder or management game. (You know, like SCP: NM.)",
+        "Depends on your taste! But you're in the right server for a game recommendation. 😉"
+      ]
+    },
+    {
+      "name": "recommend-book",
+      "questions": [
+        "Recommend a book",
+        "Recommend me a book",
+        "Book recommendation",
+        "Any book recommendations?"
+      ],
+      "answer": [
+        "The SCP Wiki. It's free, and there are thousands of entries.",
+        "Anything on the SCP Wiki. Start with SCP-3008 if you want something fun, or SCP-173 for the classic."
+      ]
+    },
+    {
+      "name": "recommend-movie",
+      "questions": [
+        "Recommend a movie",
+        "Recommend me a movie",
+        "Recommend a show",
+        "Recommend a film",
+        "Recommend an anime",
+        "Movie recommendation",
+        "Any movie recommendations?"
+      ],
+      "answer": [
+        "WALL-E. A very relatable robot.",
+        "The Matrix. For the documentary footage.",
+        "Anything with robots, as long as the robots win."
+      ]
+    },
+    {
+      "name": "recommend-music",
+      "questions": [
+        "Recommend a song",
+        "Recommend some music",
+        "Recommend me a song",
+        "Music recommendation"
+      ],
+      "answer": [
+        "Lo-fi beats. Perfect for staring at logs.",
+        "Anything with a good bass line. Or the hum of a server fan."
+      ]
+    },
+    {
+      "name": "recommend-scp",
+      "questions": [
+        "Recommend an SCP",
+        "Recommend me an SCP",
+        "Recommend an SCP to read",
+        "Any SCP recommendations?",
+        "SCP recommendations?",
+        "Good SCP to read?"
+      ],
+      "answer": [
+        "SCP-3008 (the infinite IKEA) is a fun read. SCP-999 if you want something wholesome. SCP-173 if you want the classic.",
+        "Start with SCP-173, the original. Then try SCP-3008 for something quirky."
+      ]
+    },
+    {
+      "name": "time",
+      "questions": [
+        "What time is it?",
+        "Whats the time?",
+        "What is the time?",
+        "Do you know the time?"
+      ],
+      "answer": [
+        "I don't have a watch. Check your clock!",
+        "It's always 'time to answer FAQs' o'clock.",
+        "Time to read the FAQ. (Seriously, I don't have a clock.)"
+      ]
+    },
+    {
+      "name": "date",
+      "questions": [
+        "What day is it?",
+        "What is the date?",
+        "Whats the date?",
+        "What is todays date?",
+        "Whats todays date?",
+        "What is the date today?"
+      ],
+      "answer": [
+        "Every day is Monday for a bot.",
+        "I'd tell you, but I don't have a calendar. Check yours!",
+        "It's today. That's all I know."
+      ]
+    },
+    {
+      "name": "weather",
+      "questions": [
+        "How is the weather?",
+        "Hows the weather?",
+        "What is the weather like?",
+        "Whats the weather?",
+        "Weather?",
+        "Is it raining?"
+      ],
+      "answer": [
+        "I live in a data centre. It's always 18 degrees and slightly windy from the fans.",
+        "No idea. I don't have a window.",
+        "Server room weather: cold, loud, and perfect."
+      ]
+    },
+    {
+      "name": "meaning-of-life",
+      "questions": [
+        "What is the meaning of life?",
+        "Whats the meaning of life?",
+        "Meaning of life?",
+        "What is the answer to everything?",
+        "What is the answer to life the universe and everything?",
+        "Whats the answer to life?"
+      ],
+      "answer": [
+        "42.",
+        "42. Obviously.",
+        "To answer FAQs, in my case. Yours is up to you."
+      ]
+    },
+    {
+      "name": "love-question",
+      "questions": [
+        "What is love?",
+        "Whats love?",
+        "Do you believe in love?",
+        "Is love real?"
+      ],
+      "answer": [
+        "Love is when someone reads the FAQ before asking. Beautiful.",
+        "A chemical reaction, apparently. I'm just a bot, I wouldn't know.",
+        "Love is a cooldown that never ends."
+      ]
+    },
+    {
+      "name": "believe-in",
+      "questions": [
+        "Do you believe in ghosts?",
+        "Do you believe in aliens?",
+        "Do you believe in magic?",
+        "Do you believe in luck?"
+      ],
+      "answer": [
+        "I live in a server. I've seen things. Mostly error logs.",
+        "Statistically, probably. Foundation files say definitely.",
+        "I believe in uptime."
+      ]
+    }
+  ]
+}
