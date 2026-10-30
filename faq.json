@@ -121,7 +121,7 @@
       "Sandbox?",
       "Campaign?",
       "What game modes are there?",
-      "What gamemodes are there?",
+      "What game modes are there?",
       "What modes are there?",
       "What modes will it have?",
       "Are there different game modes?"
@@ -152,7 +152,7 @@
       "Will the GOC be in the game?",
       "Is the GOC in the game?"
     ],
-    "answer": "Yes, the planned GOIs so far are the Chaos Insurgency and The Global Occult Coalition."
+    "answer": "Yes, the planned GOIs so far are the Chaos Insurgency and the Global Occult Coalition."
   },
   {
     "name": "multiplayer",
@@ -174,7 +174,7 @@
       "Is the game singleplayer?",
       "Is the game single player?"
     ],
-    "answer": "No, SCP: NM is a singleplayer game."
+    "answer": "No, SCP: SCP-NM is a single-player game."
   },
   {
     "name": "updates",
@@ -197,7 +197,7 @@
       "Will there be more modes?",
       "Will you add new game modes in the future?"
     ],
-    "answer": "If people like the base game, and there's interest in it, then yes! We'd also love to explore different gamemodes in the future."
+    "answer": "If people like the base game, and there's interest in it, then yes! We'd also love to explore different game modes and DLC ideas in the future."
   },
   {
     "name": "building",
@@ -242,7 +242,7 @@
       "Will there be a council?",
       "Will the council be in the game?"
     ],
-    "answer": "Yes. They are a part of the campaign mode."
+    "answer": "Yes. They are a part of the campaign mode. Their role will be more of an oversight to your facility."
   },
   {
     "name": "consoles",
@@ -254,9 +254,7 @@
       "Is it coming to consoles?",
       "Is there a console version?",
       "Will there be a console release?",
-      "Will there be a console version?",
-      "Console?",
-      "Consoles?",
+      "Will there be a console version?" ,
       "Will it be on PlayStation?",
       "Will it be on Xbox?",
       "Will it be on Nintendo Switch?",
@@ -279,7 +277,6 @@
       "Does it have mod support?",
       "Is there mod support?",
       "Mod support?",
-      "Mods?",
       "Is there modding?",
       "Will there be modding?",
       "Is modding allowed?",
@@ -289,7 +286,7 @@
       "Can I make a mod?",
       "Will there be a Steam Workshop?",
       "Is there a Workshop?",
-      "Workshop?",
+      "Will mods be on steam Workshop?",
       "Does it support mods?"
     ],
     "exclude": ["who", "report", "ban", "banned", "kick", "mute", "muted", "apply", "moderator", "admin", "staff", "discord"],
@@ -312,7 +309,7 @@
       "Who is behind the game?",
       "Who is kasi?"
     ],
-    "answer": "The dev is kasi"
+    "answer": "The main developer is Kasi!"
   },
   {
     "name": "doorman",
@@ -322,7 +319,7 @@
       "Who's the doorman?",
       "Who is that doorman?",
       "What is the doorman?",
-      "Doorman?"
+      "Who is Doorman?"
     ],
     "answer": "You don't want to know..."
   },
@@ -335,10 +332,34 @@
       "Is SCP-682 going to be in the game?",
       "Will 682 be in the game?",
       "Is 682 in the game?",
-      "Will 682 be added?",
-      "682?",
+      "Will 682 be added?" ,
       "SCP-682?"
     ],
     "answer": "SCP-682 hasn't been added yet, but it may be in the future."
-  }
+  },
+  {
+  "name": "new-scp",
+  "questions": [
+    "What is the new SCP?",
+    "What's the new SCP?",
+    "What is the newest SCP?",
+    "What's the newest SCP?",
+    "What is the next SCP?",
+    "What's the next SCP?",
+    "What is the latest SCP?",
+    "What SCP is new?",
+    "What SCP is next?",
+    "Which SCP is new?",
+    "Which SCP is the newest?",
+    "Which SCP is next?",
+    "Which SCP is the new one?",
+    "What is the new SCP being added?",
+    "What is the next SCP being added?",
+    "What new SCP is being added?",
+    "What new SCP is coming?",
+    "Is there a new SCP?",
+    "Is there a new SCP coming?",
+    "Any new SCPs?"
+  ],
+  "answer": "idk I'm just a Discord bot"
 ]
