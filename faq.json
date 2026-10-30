@@ -15,7 +15,9 @@
       "Is the game free?",
       "How much to buy it?"
     ],
-    "exclude": ["patreon"],
+    "exclude": [
+      "patreon"
+    ],
     "answer": "The game will cost around $20."
   },
   {
@@ -101,7 +103,14 @@
       "What SCPs are planned?",
       "Which SCPs are planned?"
     ],
-    "exclude": ["best", "favorite", "favourite", "worst", "scariest", "opinion"],
+    "exclude": [
+      "best",
+      "favorite",
+      "favourite",
+      "worst",
+      "scariest",
+      "opinion"
+    ],
     "answer": "We are aiming for a minimum of 15 SCPs, and we plan to give the spotlight to lesser-known ones as the project continues."
   },
   {
@@ -254,7 +263,7 @@
       "Is it coming to consoles?",
       "Is there a console version?",
       "Will there be a console release?",
-      "Will there be a console version?" ,
+      "Will there be a console version?",
       "Will it be on PlayStation?",
       "Will it be on Xbox?",
       "Will it be on Nintendo Switch?",
@@ -289,7 +298,20 @@
       "Will mods be on steam Workshop?",
       "Does it support mods?"
     ],
-    "exclude": ["who", "report", "ban", "banned", "kick", "mute", "muted", "apply", "moderator", "admin", "staff", "discord"],
+    "exclude": [
+      "who",
+      "report",
+      "ban",
+      "banned",
+      "kick",
+      "mute",
+      "muted",
+      "apply",
+      "moderator",
+      "admin",
+      "staff",
+      "discord"
+    ],
     "answer": "Absolutely! We are big mod supporters, and we'd love to give you exposure and post about it on our socials. More info coming when we add more support for it."
   },
   {
@@ -332,36 +354,49 @@
       "Is SCP-682 going to be in the game?",
       "Will 682 be in the game?",
       "Is 682 in the game?",
-      "Will 682 be added?" ,
+      "Will 682 be added?",
       "SCP-682?"
     ],
     "answer": "SCP-682 hasn't been added yet, but it may be in the future."
   },
   {
-  "name": "new-scp",
-  "questions": [
-    "What is the new SCP?",
-    "What's the new SCP?",
-    "What is the newest SCP?",
-    "What's the newest SCP?",
-    "What is the next SCP?",
-    "What's the next SCP?",
-    "What is the latest SCP?",
-    "What SCP is new?",
-    "What SCP is next?",
-    "Which SCP is new?",
-    "Which SCP is the newest?",
-    "Which SCP is next?",
-    "Which SCP is the new one?",
-    "What is the new SCP being added?",
-    "What is the next SCP being added?",
-    "What new SCP is being added?",
-    "What new SCP is coming?",
-    "Is there a new SCP?",
-    "Is there a new SCP coming?",
-    "Any new SCPs?"
-  ],
-  "answer": "idk, I'm just a Discord bot"
+    "name": "new-scp",
+    "questions": [
+      "What is the new SCP?",
+      "What's the new SCP?",
+      "What is the newest SCP?",
+      "What's the newest SCP?",
+      "What is the next SCP?",
+      "What's the next SCP?",
+      "What is the latest SCP?",
+      "What SCP is new?",
+      "What SCP is next?",
+      "Which SCP is new?",
+      "Which SCP is the newest?",
+      "Which SCP is next?",
+      "Which SCP is the new one?",
+      "What is the new SCP being added?",
+      "What is the next SCP being added?",
+      "What new SCP is being added?",
+      "What new SCP is coming?",
+      "Is there a new SCP?",
+      "Is there a new SCP coming?",
+      "Any new SCPs?"
+    ],
+    "answer": "idk, I'm just a Discord bot"
+  },
+  {
+    "name": "tell-me-new-scp",
+    "questions": [
+      "Tell me the new SCP",
+      "Tell me the next SCP",
+      "Tell me the newest SCP",
+      "Tell me what the new SCP is",
+      "Tell me about the new SCP",
+      "Show me the new SCP",
+      "Give me the new SCP"
+    ],
+    "answer": "NO! (Send me 20 bucks)"
   },
   {
     "name": "help",
