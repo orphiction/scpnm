@@ -9,7 +9,7 @@ const STOPWORDS = new Set([
   "there", "this", "that", "these", "those", "any", "some", "am", "im", "ill",
   "game", "games", "gonna", "going", "able", "have", "has", "had", "so", "if",
   "with", "at", "by", "from", "just", "really", "please", "also", "than", "then",
-  "them", "they", "their", "us", "as", "but",
+  "them", "they", "their", "us", "as", "but", "youre", "ur", "u", "r",
 ]);
 
 // Word forms that should count as the same word (applied after plural stripping).
@@ -85,6 +85,7 @@ function compile(entries) {
   let compiled = compiledCache.get(entries);
   if (compiled) return compiled;
   compiled = entries.map((entry) => ({
+    name: entry.name,
     answer: entry.answer,
     exclude: new Set((entry.exclude || []).flatMap((w) => tokenize(w))),
     variants: (entry.questions || [])
@@ -98,7 +99,7 @@ function compile(entries) {
 // Returns the best-matching entry's answer, or null if nothing matches.
 // A variant matches when at least `coverage` of its meaningful words appear in
 // the message. The variant that matches the most words wins.
-function findAnswer(message, entries, { fuzzy = 0.8, coverage = 0.75 } = {}) {
+function findEntry(message, entries, { fuzzy = 0.8, coverage = 0.75 } = {}) {
   const msgTokens = [...new Set(tokenize(message))];
   if (!msgTokens.length) return null;
 
@@ -117,11 +118,25 @@ function findAnswer(message, entries, { fuzzy = 0.8, coverage = 0.75 } = {}) {
         matched > best.matched ||
         (matched === best.matched && ratio > best.ratio)
       ) {
-        best = { matched, ratio, answer: entry.answer, entry };
+        best = { matched, ratio, name: entry.name, answer: entry.answer };
       }
     }
   }
-  return best ? best.answer : null;
+  return best ? { name: best.name, answer: best.answer } : null;
 }
 
-module.exports = { findAnswer, tokenize, similarity };
+// An answer can be a single string or a list of strings to pick from at random.
+function randomReply(answer) {
+  if (Array.isArray(answer)) {
+    return answer.length ? answer[Math.floor(Math.random() * answer.length)] : null;
+  }
+  return answer;
+}
+
+// Returns the reply text for the best-matching entry, or null if nothing matches.
+function findAnswer(message, entries, options) {
+  const hit = findEntry(message, entries, options);
+  return hit ? randomReply(hit.answer) : null;
+}
+
+module.exports = { findAnswer, findEntry, randomReply, tokenize, similarity };

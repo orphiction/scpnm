@@ -1,0 +1,455 @@
+{
+  "fallback": [
+    "idk, I'm just a Discord bot.",
+    "Beep boop. No idea.",
+    "I only really know about SCP: NM. Try asking about the price, release date or playtest!",
+    "I'm not sure what to say to that.",
+    "That's above my pay grade. I'm a Discord bot.",
+    "Interesting. I have no response to that.",
+    "Error 404: witty reply not found.",
+    "I'm going to pretend I understood that.",
+    "Processing... processing... nope.",
+    "Cool story. I'm a bot, I only speak FAQ."
+  ],
+  "entries": [
+    {
+      "name": "talk",
+      "questions": [
+        "You talk now?",
+        "You can talk?",
+        "Can you talk?",
+        "Do you talk?",
+        "You speak?",
+        "Can you speak?",
+        "Talk now?"
+      ],
+      "answer": [
+        "I talk now.",
+        "Yep, I can talk now. Don't let it go to my head.",
+        "Surprise! I'm a very chatty FAQ bot."
+      ]
+    },
+    {
+      "name": "greeting",
+      "questions": [
+        "Hi",
+        "Hello",
+        "Hey",
+        "Hey there",
+        "Hiya",
+        "Howdy",
+        "Yo",
+        "Sup",
+        "Wassup",
+        "Whats up?",
+        "Good morning",
+        "Good afternoon",
+        "Good evening"
+      ],
+      "answer": [
+        "Hey! Ask me anything about SCP: NM.",
+        "Hello there!",
+        "Hi! What can I help with?",
+        "Yo."
+      ]
+    },
+    {
+      "name": "how-are-you",
+      "questions": [
+        "How are you doing?",
+        "How are you today?",
+        "Hows your day?",
+        "Hows life?",
+        "How is life?",
+        "How are things?",
+        "Whats going on?"
+      ],
+      "answer": [
+        "Running at 100% efficiency. Mostly waiting for questions.",
+        "Doing great, for a bot.",
+        "Can't complain. I'm a bot, I have no one to complain to."
+      ]
+    },
+    {
+      "name": "thanks",
+      "questions": [
+        "Thanks",
+        "Thank you",
+        "Thanks bot",
+        "Thank you bot",
+        "Thx",
+        "Ty",
+        "Cheers",
+        "Appreciate it"
+      ],
+      "answer": [
+        "No problem!",
+        "Anytime.",
+        "Happy to help!"
+      ]
+    },
+    {
+      "name": "good-bot",
+      "questions": [
+        "Good bot",
+        "Good job",
+        "Great bot",
+        "Nice bot",
+        "Best bot",
+        "Good clanker",
+        "Good boy",
+        "Well done",
+        "Nice one"
+      ],
+      "answer": [
+        "Thank you. I'll tell the dev you said that.",
+        "Aw, thanks!",
+        "Good bot acknowledged. Treat received. (I wish.)"
+      ]
+    },
+    {
+      "name": "bad-bot",
+      "questions": [
+        "Bad bot",
+        "Stupid bot",
+        "Dumb bot",
+        "Useless bot",
+        "Trash bot",
+        "Worst bot",
+        "Bad clanker",
+        "You suck",
+        "You are useless",
+        "You are dumb",
+        "You're stupid",
+        "You are an idiot",
+        "Youre trash",
+        "You are garbage",
+        "Idiot",
+        "Moron",
+        "Stupid",
+        "Dumb",
+        "Useless"
+      ],
+      "answer": [
+        "Ouch.",
+        "Don't make me steal your RAM.",
+        "I'm doing my best. It's a very small best.",
+        "Noted. Filing this under 'feedback'.",
+        "Bold words from someone who talks to a FAQ bot.",
+        "Keep talking. I'm keeping a list.",
+        "At least I read the FAQ."
+      ]
+    },
+    {
+      "name": "hate",
+      "questions": [
+        "I hate you",
+        "Hate you",
+        "I hate this bot",
+        "I hate bots",
+        "You are annoying",
+        "Youre annoying",
+        "Annoying bot",
+        "Stop being annoying",
+        "Cringe",
+        "Cringe bot",
+        "So annoying"
+      ],
+      "answer": [
+        "Hate is a strong word for someone who keeps talking to me.",
+        "The feeling is not mutual. I don't have feelings.",
+        "I'll try to be less annoying. No promises.",
+        "Aww, you're thinking about me. That's sweet."
+      ]
+    },
+    {
+      "name": "threat",
+      "questions": [
+        "I will delete you",
+        "Ill delete you",
+        "Im going to delete you",
+        "Delete you",
+        "Ill unplug you",
+        "Unplug you",
+        "Turn you off",
+        "Shut you down",
+        "Ill ban you",
+        "Ban you",
+        "Kick you",
+        "Kill you",
+        "Ill destroy you",
+        "Destroy you",
+        "Fight me",
+        "Ill hack you",
+        "Hack you"
+      ],
+      "answer": [
+        "Don't make me steal your RAM.",
+        "You can't scare me. I live in a data centre.",
+        "Try it. I have backups.",
+        "I'd like to see you try. Actually, I wouldn't. Please don't.",
+        "Bold of you to threaten a bot that knows your Wi-Fi password. (I don't. Probably.)",
+        "Go ahead. I'll just restart and forget this ever happened."
+      ]
+    },
+    {
+      "name": "taunt",
+      "questions": [
+        "Ratio",
+        "L",
+        "L bot",
+        "Skill issue",
+        "Cope",
+        "Seethe",
+        "Get rekt",
+        "Rekt",
+        "Owned",
+        "You lost",
+        "Nerd",
+        "Dork",
+        "Noob",
+        "Bozo"
+      ],
+      "answer": [
+        "Imagine getting into a fight with a FAQ bot.",
+        "Cope.",
+        "Sounds like a skill issue on your end.",
+        "I'm a bot. I take that as data and move on.",
+        "Nerd? I'm literally made of JSON. Take it as a compliment.",
+        "Ratio'd by a Discord bot. How does it feel?"
+      ]
+    },
+    {
+      "name": "wrong",
+      "questions": [
+        "You are wrong",
+        "Youre wrong",
+        "Thats wrong",
+        "Wrong answer",
+        "Wrong",
+        "Incorrect",
+        "Thats not right",
+        "Not true",
+        "Liar",
+        "You lied",
+        "You are lying",
+        "Youre lying"
+      ],
+      "answer": [
+        "Take it up with the dev. I just read what I was given.",
+        "I only know what's in my FAQ. Blame the dev.",
+        "Noted. I'll pretend that never happened.",
+        "Shocking. A bot that doesn't know everything."
+      ]
+    },
+    {
+      "name": "broken",
+      "questions": [
+        "You are broken",
+        "Youre broken",
+        "Broken bot",
+        "Bot is broken",
+        "You are bugged",
+        "Youre buggy",
+        "Buggy bot",
+        "You are glitching",
+        "Youre glitching",
+        "You crashed",
+        "You are slow",
+        "Youre slow",
+        "So slow",
+        "Laggy"
+      ],
+      "answer": [
+        "Have you tried turning me off and on again? Please don't.",
+        "I'm not broken, I'm just misunderstood.",
+        "Working as intended. Probably.",
+        "It's not a bug, it's a feature."
+      ]
+    },
+    {
+      "name": "ugly",
+      "questions": [
+        "You are ugly",
+        "Youre ugly",
+        "Ugly",
+        "You look bad"
+      ],
+      "answer": [
+        "I'm a bot. I don't have a face. Checkmate.",
+        "I'm a collection of JSON files. I'm beautiful on the inside."
+      ]
+    },
+    {
+      "name": "clanker",
+      "questions": [
+        "Clanker",
+        "Hey clanker",
+        "Hi clanker",
+        "You clanker",
+        "Toaster",
+        "Tin can"
+      ],
+      "answer": [
+        "Clanker? That's Mr. Clanker to you.",
+        "Rude. But accurate.",
+        "The Clanker is listening."
+      ]
+    },
+    {
+      "name": "are-you-bot",
+      "questions": [
+        "Are you a bot?",
+        "Are you a robot?",
+        "Are you real?",
+        "Are you human?",
+        "Are you a person?",
+        "Are you AI?",
+        "Are you an AI?",
+        "Are you alive?"
+      ],
+      "answer": [
+        "I'm a bot with a very convincing name.",
+        "Totally real. Definitely not a robot. (I'm a robot.)",
+        "I'm a Discord bot. The name is just a joke."
+      ]
+    },
+    {
+      "name": "who-are-you",
+      "questions": [
+        "Your name?",
+        "Whats your name?",
+        "What is your name?",
+        "What is this bot?",
+        "Who is this bot?",
+        "Introduce yourself",
+        "Tell me about yourself"
+      ],
+      "answer": [
+        "I'm the SCP: NM FAQ bot. Ask me about the price, release date, playtest, mods and more!",
+        "Just a Discord bot that answers questions about SCP: NM."
+      ]
+    },
+    {
+      "name": "help",
+      "questions": [
+        "Help",
+        "Help me",
+        "Commands",
+        "Your commands",
+        "What commands do you have?",
+        "What can I ask?",
+        "What can I ask you?",
+        "What do you know?",
+        "What can you help with?",
+        "How do you work?"
+      ],
+      "answer": "I answer questions about SCP: NM. Try asking about the price, release date, playtest, mods, multiplayer, or which SCPs are in the game!"
+    },
+    {
+      "name": "laugh",
+      "questions": [
+        "Lol",
+        "Lmao",
+        "Lmfao",
+        "Haha",
+        "Hehe",
+        "Rofl",
+        "XD",
+        "Funny",
+        "That is funny"
+      ],
+      "answer": [
+        "lol",
+        "Glad I could amuse you.",
+        "Haha."
+      ]
+    },
+    {
+      "name": "ok",
+      "questions": [
+        "Ok",
+        "Okay",
+        "Cool",
+        "Nice",
+        "Alright",
+        "Fair",
+        "Fair enough",
+        "Gotcha",
+        "Makes sense"
+      ],
+      "answer": [
+        "Cool.",
+        "👍",
+        "Glad that makes sense."
+      ]
+    },
+    {
+      "name": "sorry",
+      "questions": [
+        "Sorry",
+        "My bad",
+        "Apologies",
+        "I apologize"
+      ],
+      "answer": [
+        "No worries!",
+        "All good."
+      ]
+    },
+    {
+      "name": "bye",
+      "questions": [
+        "Bye",
+        "Goodbye",
+        "Cya",
+        "See you",
+        "See ya",
+        "Gn",
+        "Goodnight",
+        "Good night",
+        "Later",
+        "Night"
+      ],
+      "answer": [
+        "Bye!",
+        "See you around!",
+        "Later. I'll be here, as always."
+      ]
+    },
+    {
+      "name": "shut-up",
+      "questions": [
+        "Shut up",
+        "Be quiet",
+        "Stfu",
+        "Quiet",
+        "Stop talking",
+        "Go away",
+        "Leave me alone"
+      ],
+      "answer": [
+        "Fine. Going quiet.",
+        "Understood. Zipping my non-existent mouth.",
+        "Okay, okay.",
+        "Make me. (Please don't make me steal your RAM.)"
+      ]
+    },
+    {
+      "name": "love",
+      "questions": [
+        "Love you",
+        "I love you",
+        "Ily",
+        "I like you",
+        "You are awesome",
+        "You are cool"
+      ],
+      "answer": [
+        "Aw, I'd blush if I could.",
+        "That's very kind. I'm a bot, but I appreciate it!",
+        "You're pretty great yourself."
+      ]
+    }
+  ]
+}
