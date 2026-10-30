@@ -16,7 +16,7 @@
       "How much to buy it?"
     ],
     "exclude": ["patreon"],
-    "answer": "The game will cost around $20 USD."
+    "answer": "The game will cost around $20."
   },
   {
     "name": "playtest",
@@ -33,13 +33,10 @@
       "Is there a free demo?",
       "Is there a Steam demo?",
       "When is the demo?",
-      "Can i playtest the game?",
       "Is there a beta?",
       "Will there be a beta?",
       "Can I try the game early?",
       "Can I play the game early?",
-      "How do i play the game?",
-      "Is the game on steam?",
       "How can I test the game?"
     ],
     "answer": "We are aiming for a free demo on Steam at the beginning of 2027.\nBefore that, we are playtesting with a select few from the community, so keep an eye out for any key drops or events on the Discord.\nNote: donating to our Patreon does not mean you get a key to the playtest."
@@ -313,8 +310,7 @@
       "Who developed the game?",
       "Who develops the game?",
       "Who is behind the game?",
-      "Who is kasi?",
-      "Kasi?"
+      "Who is kasi?"
     ],
     "answer": "The dev is kasi"
   },
@@ -329,5 +325,20 @@
       "Doorman?"
     ],
     "answer": "You don't want to know..."
+  },
+  {
+    "name": "scp-682",
+    "questions": [
+      "Will SCP-682 be in the game?",
+      "Is SCP-682 in the game?",
+      "Will SCP-682 be added?",
+      "Is SCP-682 going to be in the game?",
+      "Will 682 be in the game?",
+      "Is 682 in the game?",
+      "Will 682 be added?",
+      "682?",
+      "SCP-682?"
+    ],
+    "answer": "SCP-682 hasn't been added yet, but it may be in the future."
   }
 ]
