@@ -2,7 +2,7 @@ require("dotenv").config();
 const fs = require("fs");
 const path = require("path");
 const { Client, GatewayIntentBits } = require("discord.js");
-const { findAnswer } = require("./matcher");
+const { findAnswer, randomReply } = require("./matcher");
 
 const DISCORD_TOKEN = process.env.DISCORD_TOKEN;
 if (!DISCORD_TOKEN) {
@@ -18,11 +18,13 @@ const ALLOWED_CHANNELS = new Set(
     .filter(Boolean)
 );
 const COOLDOWN_MS = Number(process.env.USER_COOLDOWN_SECONDS || 20) * 1000;
+const CHAT_COOLDOWN_MS = Number(process.env.CHAT_COOLDOWN_SECONDS || 3) * 1000;
 const FUZZY_THRESHOLD = Number(process.env.FUZZY_THRESHOLD || 0.8); // typo tolerance
 const MATCH_COVERAGE = Number(process.env.MATCH_COVERAGE || 0.75); // lower = looser matching
 const AUTO_DETECT_QUESTIONS = (process.env.AUTO_DETECT_QUESTIONS || "true") !== "false";
 
-const FAQ_PATH = path.join(__dirname, "faq.json");
+const NO_ANSWER = "I don't have an answer for that one. Try rephrasing, or ask a moderator.";
+const DEFAULT_FALLBACK = "idk, I'm just a Discord bot.";
 
 const QUESTION_STARTS = [
   "who", "what", "when", "where", "why", "how", "which", "can", "could",
@@ -37,31 +39,39 @@ const client = new Client({
   ],
 });
 
-const lastAnswered = new Map();
+const lastAnswered = new Map(); // auto-detected questions
+const lastChat = new Map(); // replies/@mentions to the bot
 
-let faqCache = [];
-let faqMtime = 0;
-
-// Loads faq.json, reloading automatically whenever the file changes.
-function loadFaq() {
-  let mtime;
-  try {
-    mtime = fs.statSync(FAQ_PATH).mtimeMs;
-  } catch {
-    return faqCache;
-  }
-  if (mtime !== faqMtime) {
-    faqMtime = mtime;
+// Creates a loader for a JSON file that reloads whenever the file changes.
+function makeLoader(fileName, empty, clean) {
+  const filePath = path.join(__dirname, fileName);
+  let cache = empty;
+  let loadedMtime = 0;
+  return function load() {
+    let mtime;
     try {
-      const data = JSON.parse(fs.readFileSync(FAQ_PATH, "utf8"));
-      faqCache = Array.isArray(data) ? data : [];
-      console.log(`Loaded ${faqCache.length} FAQ entries`);
-    } catch (e) {
-      console.error(`faq.json has a syntax error, keeping previous version: ${e.message}`);
+      mtime = fs.statSync(filePath).mtimeMs;
+    } catch {
+      return cache;
     }
-  }
-  return faqCache;
+    if (mtime !== loadedMtime) {
+      loadedMtime = mtime;
+      try {
+        cache = clean(JSON.parse(fs.readFileSync(filePath, "utf8")));
+        console.log(`Loaded ${fileName}`);
+      } catch (e) {
+        console.error(`${fileName} has a syntax error, keeping previous version: ${e.message}`);
+      }
+    }
+    return cache;
+  };
 }
+
+const loadFaq = makeLoader("faq.json", [], (d) => (Array.isArray(d) ? d : []));
+const loadChat = makeLoader("chat.json", { entries: [], fallback: [] }, (d) => ({
+  entries: Array.isArray(d.entries) ? d.entries : [],
+  fallback: Array.isArray(d.fallback) ? d.fallback : [],
+}));
 
 function looksLikeQuestion(text) {
   const t = text.trim().toLowerCase();
@@ -70,52 +80,70 @@ function looksLikeQuestion(text) {
   return QUESTION_STARTS.some((s) => t.startsWith(s)) && t.split(/\s+/).length >= 4;
 }
 
+// True if this message is a reply to one of the bot's own messages.
+async function isReplyToBot(message) {
+  if (!message.reference || !message.reference.messageId) return false;
+  try {
+    const referenced = await message.fetchReference();
+    return referenced.author.id === client.user.id;
+  } catch {
+    return false;
+  }
+}
+
 client.once("clientReady", () => {
   loadFaq();
+  loadChat();
   console.log(`Logged in as ${client.user.tag}`);
 });
 
 client.on("messageCreate", async (message) => {
   if (message.author.bot || !message.guild) return;
 
-  // Only a typed @mention counts. Replying to one of the bot's messages also
-  // pings it, and that shouldn't make the bot answer.
-  const mentioned = new RegExp(`<@!?${client.user.id}>`).test(message.content);
+  const typedMention = new RegExp(`<@!?${client.user.id}>`).test(message.content);
+  const replyToBot = !typedMention && (await isReplyToBot(message));
+  const addressed = typedMention || replyToBot; // someone is talking to the bot directly
   const inScope = ALLOWED_CHANNELS.size === 0 || ALLOWED_CHANNELS.has(message.channel.id);
 
-  if (!mentioned) {
+  if (addressed) {
+    const last = lastChat.get(message.author.id) || 0;
+    if (Date.now() - last < CHAT_COOLDOWN_MS) return;
+  } else {
     if (!AUTO_DETECT_QUESTIONS || !inScope || !looksLikeQuestion(message.content)) return;
     const last = lastAnswered.get(message.author.id) || 0;
     if (Date.now() - last < COOLDOWN_MS) return;
   }
 
-  const question = message.content.replace(new RegExp(`<@!?${client.user.id}>`, "g"), "").trim();
-  if (!question) return;
-
-  const answer = findAnswer(question, loadFaq(), {
-    fuzzy: FUZZY_THRESHOLD,
-    coverage: MATCH_COVERAGE,
-  });
-
-  if (answer === null) {
-    if (mentioned) {
-      await message
-        .reply({
-          content: "I don't have an answer for that one. Try rephrasing, or ask a moderator.",
-          allowedMentions: { parse: [], repliedUser: false },
-        })
-        .catch(console.error);
-    }
-    return; // stay silent for unmatched auto-detected questions
+  const text = message.content.replace(new RegExp(`<@!?${client.user.id}>`, "g"), "").trim();
+  if (!text) {
+    if (typedMention) await sendReply(message, "Yes? Ask me anything about SCP: NM!");
+    return;
   }
 
-  lastAnswered.set(message.author.id, Date.now());
-  await message
+  const options = { fuzzy: FUZZY_THRESHOLD, coverage: MATCH_COVERAGE };
+  const chat = loadChat();
+
+  // 1) real FAQ answers first, 2) small talk when addressed directly, 3) fallback
+  let answer = findAnswer(text, loadFaq(), options);
+  if (answer === null && addressed) answer = findAnswer(text, chat.entries, options);
+  if (answer === null) {
+    if (!addressed) return; // stay silent for unmatched auto-detected questions
+    answer = looksLikeQuestion(text)
+      ? NO_ANSWER
+      : randomReply(chat.fallback) || DEFAULT_FALLBACK;
+  }
+
+  (addressed ? lastChat : lastAnswered).set(message.author.id, Date.now());
+  await sendReply(message, answer);
+});
+
+function sendReply(message, content) {
+  return message
     .reply({
-      content: answer.slice(0, 2000),
+      content: String(content).slice(0, 2000),
       allowedMentions: { parse: [], repliedUser: false },
     })
     .catch(console.error);
-});
+}
 
 client.login(DISCORD_TOKEN);
