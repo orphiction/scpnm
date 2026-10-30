@@ -455,7 +455,7 @@
       "name": "tell-me",
       "questions": [
         "Tell me the new SCP",
-        "What is the new SCP",
+        "What is the new SCP"
       ],
       "answer": [
         "NO! (Send me 20 bucks)"
