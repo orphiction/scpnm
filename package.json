@@ -1,0 +1,17 @@
+{
+  "name": "discord-faq-bot",
+  "version": "1.1.0",
+  "description": "Keyword-matching FAQ bot for Discord (no AI)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node test.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.0",
+    "dotenv": "^16.4.5"
+  }
+}
